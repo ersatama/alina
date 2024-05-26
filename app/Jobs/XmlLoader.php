@@ -2,14 +2,12 @@
 
 namespace App\Jobs;
 
+use App\Models\ReportFile;
 use App\Services\ReportFile\ReportFileCommandService;
 use Illuminate\Bus\Queueable;
-use Illuminate\Contracts\Queue\ShouldBeUnique;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Foundation\Bus\Dispatchable;
 use Illuminate\Queue\InteractsWithQueue;
-use Illuminate\Queue\SerializesModels;
-use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Storage;
 use Saloon\XmlWrangler\Exceptions\XmlReaderException;
 use Saloon\XmlWrangler\XmlReader;
@@ -18,18 +16,20 @@ use Throwable;
 class XmlLoader implements ShouldQueue
 {
     use Dispatchable, InteractsWithQueue, Queueable;
-    protected $path;
+    protected string $path;
+    protected ReportFile $reportFile;
 
     /**
      * Create a new job instance.
      *
-     * @throws XmlReaderException
      */
-    public function __construct($path)
+    public function __construct(
+        string $path,
+        ReportFile $reportFile
+    )
     {
-//        Log::info('data', [Storage::disk('local')->get($path)]);
-//        exit;
         $this->path = $path;
+        $this->reportFile = $reportFile;
     }
 
     /**
@@ -37,10 +37,7 @@ class XmlLoader implements ShouldQueue
      */
     public function handle(ReportFileCommandService $reportFileCommandService): void
     {
-        $reportFile = $reportFileCommandService->create([
-            'path' => $this->path
-        ]);
-        $xml = XmlReader::fromString(Storage::disk('local')->get($this->path));
+        $xml = XmlReader::fromString(Storage::disk('public_uploads')->get($this->path));
         try {
             $values = $xml->values();
             $data = [];
@@ -98,7 +95,7 @@ class XmlLoader implements ShouldQueue
                 }
                 $data[] = $arr;
             }
-        SaveXml::dispatch($data, $reportFile);
+        SaveXml::dispatch($data, $this->reportFile);
         } catch (XmlReaderException|Throwable $e) {
         }
     }

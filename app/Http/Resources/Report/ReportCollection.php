@@ -12,7 +12,7 @@ class ReportCollection extends ResourceCollection
      *
      * @return array<int|string, mixed>
      */
-    public function toArray(Request $request): array
+    public function toArray(Request $request)
     {
         return $this->collection->map(function ($request) {
             return new ReportResource($request);

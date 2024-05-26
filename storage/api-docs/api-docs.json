@@ -1,0 +1,268 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "Alina group OQ project",
+        "version": "1.0.0"
+    },
+    "servers": [
+        {
+            "url": "http://localhost",
+            "description": "Local API Server"
+        }
+    ],
+    "paths": {
+        "/api/v1/report/import": {
+            "post": {
+                "tags": [
+                    "Report"
+                ],
+                "summary": "Report Import",
+                "operationId": "reportImport",
+                "requestBody": {
+                    "content": {
+                        "multipart/form-data": {
+                            "schema": {
+                                "properties": {
+                                    "file": {
+                                        "description": "XML file",
+                                        "type": "file",
+                                        "format": "file"
+                                    }
+                                },
+                                "type": "object"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "201": {
+                        "description": "Created",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "example": {
+                                        "status": "success",
+                                        "message": "XML file uploaded successfully",
+                                        "data": {
+                                            "id": 18,
+                                            "path": "http://localhost/xml/1716737712_665356b0b73df.xml",
+                                            "created_at": "2024-05-26T15:35:12.000000Z",
+                                            "updated_at": "2024-05-26T15:35:12.000000Z"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Bad request",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "example": {
+                                        "status": "Error",
+                                        "message": "Something goes wrong"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/api/v1/report/get": {
+            "get": {
+                "tags": [
+                    "Report"
+                ],
+                "summary": "Report get",
+                "operationId": "report Get",
+                "parameters": [
+                    {
+                        "name": "page",
+                        "in": "query",
+                        "description": "pagination",
+                        "required": false,
+                        "schema": {
+                            "type": "integer",
+                            "example": 1
+                        }
+                    },
+                    {
+                        "name": "take",
+                        "in": "query",
+                        "description": "limit",
+                        "required": false,
+                        "schema": {
+                            "type": "integer",
+                            "example": 20
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "ok",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "example": {
+                                        "data": "..."
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/api/v1/report/getByReportFileId/{id}": {
+            "get": {
+                "tags": [
+                    "Report"
+                ],
+                "summary": "Report get by report file id",
+                "operationId": "report getByReportFileId",
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "description": "report file id",
+                        "required": true,
+                        "schema": {
+                            "type": "integer",
+                            "example": 1
+                        }
+                    },
+                    {
+                        "name": "page",
+                        "in": "query",
+                        "description": "pagination",
+                        "required": false,
+                        "schema": {
+                            "type": "integer",
+                            "example": 1
+                        }
+                    },
+                    {
+                        "name": "take",
+                        "in": "query",
+                        "description": "limit",
+                        "required": false,
+                        "schema": {
+                            "type": "integer",
+                            "example": 20
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "ok",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "example": {
+                                        "data": "..."
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/api/v1/reportFile/get": {
+            "get": {
+                "tags": [
+                    "Report File"
+                ],
+                "summary": "ReportFile get",
+                "operationId": "reportFile Get",
+                "parameters": [
+                    {
+                        "name": "page",
+                        "in": "query",
+                        "description": "pagination",
+                        "required": false,
+                        "schema": {
+                            "type": "integer",
+                            "example": 1
+                        }
+                    },
+                    {
+                        "name": "take",
+                        "in": "query",
+                        "description": "limit",
+                        "required": false,
+                        "schema": {
+                            "type": "integer",
+                            "example": 20
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "ok",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "example": {
+                                        "data": "..."
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/api/v1/reportFile/getById/{id}": {
+            "get": {
+                "tags": [
+                    "Report File"
+                ],
+                "summary": "Report get by report id",
+                "operationId": "reportFile getById",
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "description": "report id",
+                        "required": true,
+                        "schema": {
+                            "type": "integer",
+                            "example": 1
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "ok",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "example": {
+                                        "status": "success",
+                                        "data": "..."
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Bad request",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "example": {
+                                        "status": "Not found",
+                                        "message": "Report file not found"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

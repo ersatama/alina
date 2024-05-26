@@ -3,6 +3,8 @@
 namespace App\Helpers;
 
 use App\Jobs\XmlLoader;
+use App\Models\ReportFile;
+use App\Services\ReportFile\ReportFileCommandService;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Storage;
 use Saloon\XmlWrangler\Exceptions\XmlReaderException;
@@ -11,10 +13,16 @@ use Throwable;
 
 class XMLParserHelper
 {
+    public function __construct(
+        private readonly ReportFileCommandService $reportFileCommandService
+    )
+    {
+    }
+
     /**
      * @throws XmlReaderException|Throwable
      */
-    public function parse($xmlRequest): bool
+    public function parse($xmlRequest) : bool|ReportFile
     {
         $xmlReader = XmlReader::fromFile($xmlRequest->file('file'));
         $values = $xmlReader->values();
@@ -25,10 +33,12 @@ class XMLParserHelper
         ) {
             return false;
         }
-        $path = 'public/tmp/' . time() . '_' . uniqid() . '.xml';//$xmlRequest->file('file')->getClientOriginalName();
-        //$xmlRequest->file('file')->move($path, $xmlRequest->file('file')->getPathName()$xmlRequest->file('file')->getClientOriginalName());
-        Storage::disk('local')->put($path, file_get_contents($xmlRequest->file('file')));
-        XmlLoader::dispatch($path);
-        return true;
+        $path = time() . '_' . uniqid() . '.xml';
+        Storage::disk('public_uploads')->put($path, file_get_contents($xmlRequest->file('file')));
+        $reportFile = $this->reportFileCommandService->create([
+            'path' => $path
+        ]);
+        XmlLoader::dispatch($path, $reportFile);
+        return $reportFile;
     }
 }

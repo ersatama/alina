@@ -25,6 +25,7 @@ Route::prefix('v1')->group(function() {
 
     Route::prefix('report')->group(function() {
         Route::post('import', [ReportController::class, 'import'])->name('report.import');
+        Route::get('getByReportFileId/{id}', [ReportController::class, 'getByReportFileId'])->name('report.getByReportFileId');
         Route::get('get', [ReportController::class, 'get'])->name('report.get');
         Route::put('update', [ReportController::class, 'update'])->name('report.update');
     });
