@@ -16,6 +16,11 @@ class ReportQueryService extends Service
         return Report::get();
     }
 
+    public function getByReportFileId($reportFileId)
+    {
+        return Report::where('report_file_id', $reportFileId)->get();
+    }
+
     public function firstById($id)
     {
         return Report::where('id', $id)->first();

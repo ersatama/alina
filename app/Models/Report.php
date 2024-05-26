@@ -2,6 +2,7 @@
 
 namespace App\Models;
 
+use App\Models\Scopes\Page;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
@@ -18,4 +19,10 @@ class Report extends Model
         'name',
         'field_name'
     ];
+
+    protected static function boot(): void
+    {
+        parent::boot();
+        static::addGlobalScope(new Page);
+    }
 }

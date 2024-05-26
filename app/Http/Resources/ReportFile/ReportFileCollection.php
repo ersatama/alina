@@ -1,11 +1,11 @@
 <?php
 
-namespace App\Http\Resources\Report;
+namespace App\Http\Resources\ReportFile;
 
 use Illuminate\Http\Request;
 use Illuminate\Http\Resources\Json\ResourceCollection;
 
-class ReportCollection extends ResourceCollection
+class ReportFileCollection extends ResourceCollection
 {
     /**
      * Transform the resource collection into an array.
@@ -15,7 +15,7 @@ class ReportCollection extends ResourceCollection
     public function toArray(Request $request): array
     {
         return $this->collection->map(function ($request) {
-            return new ReportResource($request);
+            return new ReportFileResource($request);
         });
     }
 }

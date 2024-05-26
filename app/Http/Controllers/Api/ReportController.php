@@ -56,6 +56,14 @@ class ReportController extends Controller
         ], ResponseAlias::HTTP_OK);
     }
 
+    public function getByReportFileId($reportFileId): JsonResponse
+    {
+        $reports = $this->reportQueryService->getByReportFileId($reportFileId);
+        return response()->json([
+            'data' => new ReportCollection($reports)
+        ], ResponseAlias::HTTP_OK);
+    }
+
     /**
      * @throws ValidationException
      */
