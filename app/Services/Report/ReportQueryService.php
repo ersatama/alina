@@ -15,4 +15,9 @@ class ReportQueryService extends Service
     {
         return Report::get();
     }
+
+    public function firstById($id)
+    {
+        return Report::where('id', $id)->first();
+    }
 }

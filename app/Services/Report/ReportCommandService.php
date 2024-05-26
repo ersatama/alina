@@ -8,14 +8,18 @@ use App\Services\Service;
 
 class ReportCommandService extends Service
 {
-    public function __construct(
-        private readonly Report $report
-    )
+
+    public function create($data)
     {
+        return Report::create($data);
     }
 
-    public function create($dataDTO)
+    public function update($report, $data)
     {
-        return $this->report::create($dataDTO->toArray());
+        foreach ($data as $key => $value) {
+            $report->{$key} = $value;
+        }
+        $report->update();
+        return $report;
     }
 }

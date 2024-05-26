@@ -1,0 +1,1005 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CrystalReport xmlns="urn:crystal-reports:schemas:report-detail"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:crystal-reports:schemas:report-detail http://www.businessobjects.com/products/xml/CR2008Schema.xsd">
+<ReportHeader>
+</ReportHeader>
+<Details Level="1">
+<Section SectionNumber="0">
+<Field Name="Field30" FieldName="{SMAN.SMAN_ROOMSINHOTEL_D}"><FormattedValue>107</FormattedValue><Value>107</Value></Field>
+<Field Name="Field31" FieldName="{SMAN.SMAN_ROOMSINHOTEL_M}"><FormattedValue>107</FormattedValue><Value>107</Value></Field>
+<Field Name="Field32" FieldName="{SMAN.SMAN_ROOMSINHOTEL_Y}"><FormattedValue>8239</FormattedValue><Value>8239</Value></Field>
+<Field Name="Field136" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_ROOMSINHOTEL_D}"><FormattedValue>0</FormattedValue><Value>0</Value></Field>
+<Field Name="Field137" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_ROOMSINHOTEL_M}"><FormattedValue>0</FormattedValue><Value>0</Value></Field>
+<Field Name="Field138" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_ROOMSINHOTEL_Y}"><FormattedValue>0</FormattedValue><Value>0</Value></Field>
+<Field Name="Field322" FieldName="{@TTR_TOTAL_HOTEL_ROOMS}"><FormattedValue>Всего комнат в гост.</FormattedValue><Value>Всего комнат в гост.</Value></Field>
+</Section>
+<Section SectionNumber="1">
+<Field Name="Field14" FieldName="{@TOTALROOMS-OOO_D}"><FormattedValue>95</FormattedValue><Value>95.00</Value></Field>
+<Field Name="Field15" FieldName="{@TOTALROOMS-OOO_M}"><FormattedValue>95</FormattedValue><Value>95.00</Value></Field>
+<Field Name="Field16" FieldName="{@TOTALROOMS-OOO_Y}"><FormattedValue>7594</FormattedValue><Value>7594.00</Value></Field>
+<Field Name="Field229" FieldName="{@TOTALROOMS-OOO_D_LY}"><FormattedValue>0</FormattedValue><Value>0.00</Value></Field>
+<Field Name="Field230" FieldName="{@TOTALROOMS-OOO_M_LY}"><FormattedValue>0</FormattedValue><Value>0.00</Value></Field>
+<Field Name="Field231" FieldName="{@TOTALROOMS-OOO_Y_LY}"><FormattedValue>0</FormattedValue><Value>0.00</Value></Field>
+<Field Name="Field315" FieldName="{@TTR_TOT_RMS_MIN_OOO}"><FormattedValue>Всего - на рем.</FormattedValue><Value>Всего - на рем.</Value></Field>
+</Section>
+<Section SectionNumber="2">
+<Field Name="Field33" FieldName="{SMAN.SMAN_ROOMS_OCC_D}"><FormattedValue>33</FormattedValue><Value>33</Value></Field>
+<Field Name="Field34" FieldName="{SMAN.SMAN_ROOMS_OCC_M}"><FormattedValue>33</FormattedValue><Value>33</Value></Field>
+<Field Name="Field35" FieldName="{SMAN.SMAN_ROOMS_OCC_Y}"><FormattedValue>3878</FormattedValue><Value>3878</Value></Field>
+<Field Name="Field139" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_ROOMS_OCC_D}"><FormattedValue>0</FormattedValue><Value>0</Value></Field>
+<Field Name="Field140" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_ROOMS_OCC_M}"><FormattedValue>0</FormattedValue><Value>0</Value></Field>
+<Field Name="Field141" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_ROOMS_OCC_Y}"><FormattedValue>0</FormattedValue><Value>0</Value></Field>
+<Field Name="Field321" FieldName="{@TTR_OCC_ROOMS}"><FormattedValue>Зан. комн.</FormattedValue><Value>Зан. комн.</Value></Field>
+</Section>
+<Section SectionNumber="3">
+<Field Name="Field36" FieldName="{@AVAILROOMS_D}"><FormattedValue>74</FormattedValue><Value>74.00</Value></Field>
+<Field Name="Field37" FieldName="{@AVAILROOMS_M}"><FormattedValue>74</FormattedValue><Value>74.00</Value></Field>
+<Field Name="Field38" FieldName="{@AVAILROOMS_Y}"><FormattedValue>4361</FormattedValue><Value>4361.00</Value></Field>
+<Field Name="Field223" FieldName="{@AVAILROOMS_D_LY}"><FormattedValue>0</FormattedValue><Value>0.00</Value></Field>
+<Field Name="Field224" FieldName="{@AVAILROOMS_M_LY}"><FormattedValue>0</FormattedValue><Value>0.00</Value></Field>
+<Field Name="Field225" FieldName="{@AVAILROOMS_Y_LY}"><FormattedValue>0</FormattedValue><Value>0.00</Value></Field>
+<Field Name="Field320" FieldName="{@TTR_VAC_ROOMS}"><FormattedValue>Своб. комн.</FormattedValue><Value>Своб. комн.</Value></Field>
+</Section>
+<Section SectionNumber="4">
+<Field Name="Field39" FieldName="{@%ROOMSOCC_D}"><FormattedValue>30,84</FormattedValue><Value>30.84</Value></Field>
+<Field Name="Field40" FieldName="{@%ROOMSOCC_M}"><FormattedValue>30,84</FormattedValue><Value>30.84</Value></Field>
+<Field Name="Field41" FieldName="{@%ROOMSOCC_Y}"><FormattedValue>47,07</FormattedValue><Value>47.07</Value></Field>
+<Field Name="Field226" FieldName="{@%ROOMSOCC_D_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="Field227" FieldName="{@%ROOMSOCC_M_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="Field228" FieldName="{@%ROOMSOCC_Y_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="Field319" FieldName="{@TTR_PCT_OCC_ROOMS}"><FormattedValue>% зан. комн.</FormattedValue><Value>% зан. комн.</Value></Field>
+</Section>
+<Section SectionNumber="5">
+<Field Name="Feld1" FieldName="{@TTR_PCT_OCC_RMS_MIN_OOO}"><FormattedValue>% зан. комн. - конм. на ремонте</FormattedValue><Value>% зан. комн. - конм. на ремонте</Value></Field>
+<Field Name="Feld2" FieldName="{@%ROOMS_OCC-OOO_D}"><FormattedValue>34,74</FormattedValue><Value>34.74</Value></Field>
+<Field Name="Feld22" FieldName="{@%ROOMS_OCC-OOO_M}"><FormattedValue>34,74</FormattedValue><Value>34.74</Value></Field>
+<Field Name="Feld23" FieldName="{@%ROOMS_OCC-OOO_Y}"><FormattedValue>51,07</FormattedValue><Value>51.07</Value></Field>
+<Field Name="Feld24" FieldName="{@%ROOMS_OCC-OOO_D_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="Feld25" FieldName="{@%ROOMS_OCC-OOO_M_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="Feld26" FieldName="{@%ROOMS_OCC-OOO_Y_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+</Section>
+<Section SectionNumber="6">
+<Field Name="TTRCOFLIVEROOM1" FieldName="{@TTR_COF_LIVE_ROOM}"><FormattedValue>Коэффициент проживающих на номер</FormattedValue><Value>Коэффициент проживающих на номер</Value></Field>
+<Field Name="CONFLIVEROOMD1" FieldName="{@HRS_CONF_LIVE_ROOM_D}"><FormattedValue>2,24</FormattedValue><Value>2.24</Value></Field>
+<Field Name="HRSCONFLIVEROOMM1" FieldName="{@HRS_CONF_LIVE_ROOM_M}"><FormattedValue>2,24</FormattedValue><Value>2.24</Value></Field>
+<Field Name="HRSCONFLIVEROOMY1" FieldName="{@HRS_CONF_LIVE_ROOM_Y}"><FormattedValue>2,24</FormattedValue><Value>2.24</Value></Field>
+<Field Name="HRSCONFLIVEROOMDLY1" FieldName="{@HRS_CONF_LIVE_ROOM_D_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="HRSCONFLIVEROOMMLY1" FieldName="{@HRS_CONF_LIVE_ROOM_M_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="HRSCONFLIVEROOMYLY1" FieldName="{@HRS_CONF_LIVE_ROOM_Y_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+</Section>
+<Section SectionNumber="7">
+<Field Name="Field389" FieldName="{@%AVGROOMGRS_OCC_Y_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="Field388" FieldName="{@%AVGROOMGRS_OCC_M_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="Field387" FieldName="{@%AVGROOMGRS_OCC_D_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="Field384" FieldName="{@%AVGROOMGRS_OCC_D}"><FormattedValue>77 505,27</FormattedValue><Value>77505.27</Value></Field>
+<Field Name="Field385" FieldName="{@%AVGROOMGRS_OCC_M}"><FormattedValue>77 505,27</FormattedValue><Value>77505.27</Value></Field>
+<Field Name="Field386" FieldName="{@%AVGROOMGRS_OCC_Y}"><FormattedValue>62 555,23</FormattedValue><Value>62555.23</Value></Field>
+<Field Name="Field396" FieldName="{@TTR_GROSS_ARR}"><FormattedValue>Дох. прож. с нал. на зан. комн.</FormattedValue><Value>Дох. прож. с нал. на зан. комн.</Value></Field>
+</Section>
+<Section SectionNumber="8">
+<Field Name="Field390" FieldName="{@%AVGROOMNET_OCC_D}"><FormattedValue>69 201,14</FormattedValue><Value>69201.14</Value></Field>
+<Field Name="Field391" FieldName="{@%AVGROOMNET_OCC_M}"><FormattedValue>69 201,14</FormattedValue><Value>69201.14</Value></Field>
+<Field Name="Field392" FieldName="{@%AVGROOMNET_OCC_Y}"><FormattedValue>55 852,88</FormattedValue><Value>55852.88</Value></Field>
+<Field Name="Field393" FieldName="{@%AVGROOMNET_OCC_D_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="Field394" FieldName="{@%AVGROOMNET_OCC_M_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="Field395" FieldName="{@%AVGROOMNET_OCC_Y_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="Field399" FieldName="{@TTR_NET_ARR}"><FormattedValue>Дох. прож. без нал. на зан. комн.</FormattedValue><Value>Дох. прож. без нал. на зан. комн.</Value></Field>
+</Section>
+<Section SectionNumber="9">
+<Field Name="TTRREVPARTOTALHRS1" FieldName="{@TTR_REVPAR_TOTAL_HRS}"><FormattedValue>RevPAR (Доход Отеля)</FormattedValue><Value>RevPAR (Доход Отеля)</Value></Field>
+<Field Name="REVPARTOTALD1" FieldName="{@REVPAR_TOTAL_D}"><FormattedValue>77 955,93</FormattedValue><Value>77955.93</Value></Field>
+<Field Name="REVPARTOTALM1" FieldName="{@REVPAR_TOTAL_M}"><FormattedValue>77 955,93</FormattedValue><Value>77955.93</Value></Field>
+<Field Name="REVPARTOTALY1" FieldName="{@REVPAR_TOTAL_Y}"><FormattedValue>74 522,56</FormattedValue><Value>74522.56</Value></Field>
+<Field Name="REVPARTOTALDLY1" FieldName="{@REVPAR_TOTAL_D_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="REVPARTOTALMLY1" FieldName="{@REVPAR_TOTAL_M_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="REVPARTOTALYLY1" FieldName="{@REVPAR_TOTAL_Y_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+</Section>
+<Section SectionNumber="10">
+<Field Name="Field524" FieldName="{@TTR_REVPAR}"><FormattedValue>RevPAR</FormattedValue><Value>RevPAR</Value></Field>
+<Field Name="Field525" FieldName="{@REVPAR_D}"><FormattedValue>24 038,29</FormattedValue><Value>24038.29</Value></Field>
+<Field Name="Field526" FieldName="{@REVPAR_M}"><FormattedValue>24 038,29</FormattedValue><Value>24038.29</Value></Field>
+<Field Name="Field527" FieldName="{@REVPAR_Y}"><FormattedValue>28 522,19</FormattedValue><Value>28522.19</Value></Field>
+<Field Name="Field528" FieldName="{@REVPAR_D_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="Field529" FieldName="{@REVPAR_M_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="Field530" FieldName="{@REVPAR_Y_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+</Section>
+<Section SectionNumber="11">
+<Field Name="TTRREVPARTOTALROOMSHRSGROSS1" FieldName="{@TTR_REVPAR_TOTAL_ROOMS_HRS(GROSS)}"><FormattedValue>RevPAR (Total Rooms, GROSS)</FormattedValue><Value>RevPAR (Total Rooms, GROSS)</Value></Field>
+<Field Name="REVPARDTOTALROOMS1" FieldName="{@REVPAR_D_TOTAL_ROOMS}"><FormattedValue>23 903,50</FormattedValue><Value>23903.50</Value></Field>
+<Field Name="REVPARDLYTOTALROOMS1" FieldName="{@REVPAR_D_LY_TOTAL_ROOMS}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="REVPARMTOTALROOMS1" FieldName="{@REVPAR_M_TOTAL_ROOMS}"><FormattedValue>23 903,50</FormattedValue><Value>23903.50</Value></Field>
+<Field Name="REVPARMLYTOTALROOMS1" FieldName="{@REVPAR_M_LY_TOTAL_ROOMS}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="REVPARYTOTALROOMS1" FieldName="{@REVPAR_Y_TOTAL_ROOMS}"><FormattedValue>29 444,01</FormattedValue><Value>29444.01</Value></Field>
+<Field Name="REVPARYLYTOTALROOMS1" FieldName="{@REVPAR_Y_LY_TOTAL_ROOMS}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+</Section>
+<Section SectionNumber="12">
+</Section>
+<Section SectionNumber="13">
+<Field Name="Field1" FieldName="{SMAN.SMAN_COMPROOMS_D}"><FormattedValue>0</FormattedValue><Value>0</Value></Field>
+<Field Name="Field5" FieldName="{SMAN.SMAN_COMPROOMS_M}"><FormattedValue>0</FormattedValue><Value>0</Value></Field>
+<Field Name="Field6" FieldName="{SMAN.SMAN_COMPROOMS_Y}"><FormattedValue>9</FormattedValue><Value>9</Value></Field>
+<Field Name="Field142" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_COMPROOMS_D}"><FormattedValue>0</FormattedValue><Value>0</Value></Field>
+<Field Name="Field143" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_COMPROOMS_M}"><FormattedValue>0</FormattedValue><Value>0</Value></Field>
+<Field Name="Field144" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_COMPROOMS_Y}"><FormattedValue>0</FormattedValue><Value>0</Value></Field>
+<Field Name="Field318" FieldName="{@TTR_COMP_ROOMS}"><FormattedValue>Беспл. комн.</FormattedValue><Value>Беспл. комн.</Value></Field>
+</Section>
+<Section SectionNumber="14">
+<Field Name="Field8" FieldName="{SMAN.SMAN_HOUSEUSEROOMS_D}"><FormattedValue>0</FormattedValue><Value>0</Value></Field>
+<Field Name="Field9" FieldName="{SMAN.SMAN_HOUSEUSEROOMS_M}"><FormattedValue>0</FormattedValue><Value>0</Value></Field>
+<Field Name="Field10" FieldName="{SMAN.SMAN_HOUSEUSEROOMS_Y}"><FormattedValue>65</FormattedValue><Value>65</Value></Field>
+<Field Name="Field145" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_HOUSEUSEROOMS_D}"><FormattedValue>0</FormattedValue><Value>0</Value></Field>
+<Field Name="Field146" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_HOUSEUSEROOMS_M}"><FormattedValue>0</FormattedValue><Value>0</Value></Field>
+<Field Name="Field147" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_HOUSEUSEROOMS_Y}"><FormattedValue>0</FormattedValue><Value>0</Value></Field>
+<Field Name="Field317" FieldName="{@TTR_HOUSE_USE}"><FormattedValue>Служ.</FormattedValue><Value>Служ.</Value></Field>
+</Section>
+<Section SectionNumber="15">
+<Field Name="Field11" FieldName="{SMAN.SMAN_ROOMS_OOO_D}"><FormattedValue>12</FormattedValue><Value>12</Value></Field>
+<Field Name="Field12" FieldName="{SMAN.SMAN_ROOMS_OOO_M}"><FormattedValue>12</FormattedValue><Value>12</Value></Field>
+<Field Name="Field13" FieldName="{SMAN.SMAN_ROOMS_OOO_Y}"><FormattedValue>645</FormattedValue><Value>645</Value></Field>
+<Field Name="Field148" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_ROOMS_OOO_D}"><FormattedValue>0</FormattedValue><Value>0</Value></Field>
+<Field Name="Field149" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_ROOMS_OOO_M}"><FormattedValue>0</FormattedValue><Value>0</Value></Field>
+<Field Name="Field150" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_ROOMS_OOO_Y}"><FormattedValue>0</FormattedValue><Value>0</Value></Field>
+<Field Name="Field316" FieldName="{@TTR_OOO_ROOMS}"><FormattedValue>На рем.</FormattedValue><Value>На рем.</Value></Field>
+</Section>
+<Section SectionNumber="16">
+<Field Name="Field293" FieldName="{SMAN.SMAN_ROOMS_OOS_D}"><FormattedValue>0</FormattedValue><Value>0</Value></Field>
+<Field Name="Field294" FieldName="{SMAN.SMAN_ROOMS_OOS_M}"><FormattedValue>0</FormattedValue><Value>0</Value></Field>
+<Field Name="Field295" FieldName="{SMAN.SMAN_ROOMS_OOS_Y}"><FormattedValue>1</FormattedValue><Value>1</Value></Field>
+<Field Name="Field296" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_ROOMS_OOS_D}"><FormattedValue>0</FormattedValue><Value>0</Value></Field>
+<Field Name="Field297" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_ROOMS_OOS_M}"><FormattedValue>0</FormattedValue><Value>0</Value></Field>
+<Field Name="Field298" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_ROOMS_OOS_Y}"><FormattedValue>0</FormattedValue><Value>0</Value></Field>
+<Field Name="Field311" FieldName="{@TTR_OOS_ROOMS}"><FormattedValue>Не обсл.</FormattedValue><Value>Не обсл.</Value></Field>
+</Section>
+<Section SectionNumber="17">
+</Section>
+<Section SectionNumber="18">
+<Field Name="Field42" FieldName="{@GUESTSINHOUSE_D}"><FormattedValue>74</FormattedValue><Value>74.00</Value></Field>
+<Field Name="Field43" FieldName="{@GUESTSINHOUSE_M}"><FormattedValue>74</FormattedValue><Value>74.00</Value></Field>
+<Field Name="Field44" FieldName="{@GUESTSINHOUSE_Y}"><FormattedValue>8686</FormattedValue><Value>8686.00</Value></Field>
+<Field Name="Field133" FieldName="{@GUESTSINHOUSE_D_LY}"><FormattedValue>0</FormattedValue><Value>0.00</Value></Field>
+<Field Name="Field134" FieldName="{@GUESTSINHOUSE_Y_LY}"><FormattedValue>0</FormattedValue><Value>0.00</Value></Field>
+<Field Name="Field135" FieldName="{@GUESTSINHOUSE_M_LY}"><FormattedValue>0</FormattedValue><Value>0.00</Value></Field>
+<Field Name="Field26" FieldName="{@TTR_GUESTS_INHOUSE}"><FormattedValue>Проживающие</FormattedValue><Value>Проживающие</Value></Field>
+</Section>
+<Section SectionNumber="19">
+<Field Name="Field27" FieldName="{SMAN.SMAN_ADULTS_D}"><FormattedValue>73</FormattedValue><Value>73</Value></Field>
+<Field Name="Field28" FieldName="{SMAN.SMAN_ADULTS_M}"><FormattedValue>73</FormattedValue><Value>73</Value></Field>
+<Field Name="Field29" FieldName="{SMAN.SMAN_ADULTS_Y}"><FormattedValue>7888</FormattedValue><Value>7888</Value></Field>
+<Field Name="Field127" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_ADULTS_D}"><FormattedValue>0</FormattedValue><Value>0</Value></Field>
+<Field Name="Field128" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_ADULTS_M}"><FormattedValue>0</FormattedValue><Value>0</Value></Field>
+<Field Name="Field129" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_ADULTS_Y}"><FormattedValue>0</FormattedValue><Value>0</Value></Field>
+<Field Name="Field324" FieldName="{@TTR_ADULTS}"><FormattedValue>Взр.</FormattedValue><Value>Взр.</Value></Field>
+</Section>
+<Section SectionNumber="20">
+<Field Name="Field45" FieldName="{SMAN.SMAN_CHILDS_D}"><FormattedValue>1</FormattedValue><Value>1</Value></Field>
+<Field Name="Field46" FieldName="{SMAN.SMAN_CHILDS_M}"><FormattedValue>1</FormattedValue><Value>1</Value></Field>
+<Field Name="Field47" FieldName="{SMAN.SMAN_CHILDS_Y}"><FormattedValue>798</FormattedValue><Value>798</Value></Field>
+<Field Name="Field130" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_CHILDS_D}"><FormattedValue>0</FormattedValue><Value>0</Value></Field>
+<Field Name="Field131" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_CHILDS_M}"><FormattedValue>0</FormattedValue><Value>0</Value></Field>
+<Field Name="Field132" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_CHILDS_Y}"><FormattedValue>0</FormattedValue><Value>0</Value></Field>
+<Field Name="Field323" FieldName="{@TTR_CHILDREN}"><FormattedValue>Всего деней</FormattedValue><Value>Всего деней</Value></Field>
+</Section>
+<Section SectionNumber="21">
+<Field Name="Field502" FieldName="{@TTR_CHILDREN_G1}"><FormattedValue>Младенцы</FormattedValue><Value>Младенцы</Value></Field>
+<Field Name="Field505" FieldName="{SMAN.SMAN_CHILDS_G1_D}"><FormattedValue>0</FormattedValue><Value>0</Value></Field>
+<Field Name="Field508" FieldName="{SMAN.SMAN_CHILDS_G1_M}"><FormattedValue>0</FormattedValue><Value>0</Value></Field>
+<Field Name="Field511" FieldName="{SMAN.SMAN_CHILDS_G1_Y}"><FormattedValue>191</FormattedValue><Value>191</Value></Field>
+<Field Name="Field514" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_CHILDS_G1_D}"><FormattedValue>0</FormattedValue><Value>0</Value></Field>
+<Field Name="Field517" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_CHILDS_G1_M}"><FormattedValue>0</FormattedValue><Value>0</Value></Field>
+<Field Name="Field520" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_CHILDS_G1_Y}"><FormattedValue>0</FormattedValue><Value>0</Value></Field>
+</Section>
+<Section SectionNumber="22">
+<Field Name="Field503" FieldName="{@TTR_CHILDREN_G2}"><FormattedValue>Дети</FormattedValue><Value>Дети</Value></Field>
+<Field Name="Field506" FieldName="{SMAN.SMAN_CHILDS_G2_D}"><FormattedValue>1</FormattedValue><Value>1</Value></Field>
+<Field Name="Field509" FieldName="{SMAN.SMAN_CHILDS_G2_M}"><FormattedValue>1</FormattedValue><Value>1</Value></Field>
+<Field Name="Field512" FieldName="{SMAN.SMAN_CHILDS_G2_Y}"><FormattedValue>607</FormattedValue><Value>607</Value></Field>
+<Field Name="Field515" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_CHILDS_G2_D}"><FormattedValue>0</FormattedValue><Value>0</Value></Field>
+<Field Name="Field518" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_CHILDS_G2_M}"><FormattedValue>0</FormattedValue><Value>0</Value></Field>
+<Field Name="Field521" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_CHILDS_G2_Y}"><FormattedValue>0</FormattedValue><Value>0</Value></Field>
+</Section>
+<Section SectionNumber="23">
+<Field Name="Field504" FieldName="{@TTR_CHILDREN_G3}"><FormattedValue>Подростки</FormattedValue><Value>Подростки</Value></Field>
+<Field Name="Field507" FieldName="{SMAN.SMAN_CHILDS_G3_D}"><FormattedValue>0</FormattedValue><Value>0</Value></Field>
+<Field Name="Field510" FieldName="{SMAN.SMAN_CHILDS_G3_M}"><FormattedValue>0</FormattedValue><Value>0</Value></Field>
+<Field Name="Field513" FieldName="{SMAN.SMAN_CHILDS_G3_Y}"><FormattedValue>0</FormattedValue><Value>0</Value></Field>
+<Field Name="Field516" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_CHILDS_G3_D}"><FormattedValue>0</FormattedValue><Value>0</Value></Field>
+<Field Name="Field519" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_CHILDS_G3_M}"><FormattedValue>0</FormattedValue><Value>0</Value></Field>
+<Field Name="Field522" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_CHILDS_G3_Y}"><FormattedValue>0</FormattedValue><Value>0</Value></Field>
+</Section>
+<Section SectionNumber="24">
+<Field Name="Field93" FieldName="{SMAN.SMAN_VIPADULTS_D}"><FormattedValue>10</FormattedValue><Value>10</Value></Field>
+<Field Name="Field94" FieldName="{SMAN.SMAN_VIPADULTS_M}"><FormattedValue>10</FormattedValue><Value>10</Value></Field>
+<Field Name="Field95" FieldName="{SMAN.SMAN_VIPADULTS_Y}"><FormattedValue>32</FormattedValue><Value>32</Value></Field>
+<Field Name="Field163" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_VIPADULTS_D}"><FormattedValue>0</FormattedValue><Value>0</Value></Field>
+<Field Name="Field164" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_VIPADULTS_M}"><FormattedValue>0</FormattedValue><Value>0</Value></Field>
+<Field Name="Field165" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_VIPADULTS_Y}"><FormattedValue>0</FormattedValue><Value>0</Value></Field>
+<Field Name="Field356" FieldName="{@TTR_VIP}"><FormattedValue>VIP гости</FormattedValue><Value>VIP гости</Value></Field>
+</Section>
+<Section SectionNumber="25">
+</Section>
+<Section SectionNumber="33">
+<Field Name="Field48" FieldName="{SMAN.SMAN_ARR_ROOMS_D}"><FormattedValue>21</FormattedValue><Value>21</Value></Field>
+<Field Name="Field49" FieldName="{SMAN.SMAN_ARR_ROOMS_M}"><FormattedValue>21</FormattedValue><Value>21</Value></Field>
+<Field Name="Field50" FieldName="{SMAN.SMAN_ARR_ROOMS_Y}"><FormattedValue>2515</FormattedValue><Value>2515</Value></Field>
+<Field Name="Field151" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_ARR_ROOMS_D}"><FormattedValue>0</FormattedValue><Value>0</Value></Field>
+<Field Name="Field152" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_ARR_ROOMS_M}"><FormattedValue>0</FormattedValue><Value>0</Value></Field>
+<Field Name="Field153" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_ARR_ROOMS_Y}"><FormattedValue>0</FormattedValue><Value>0</Value></Field>
+<Field Name="Field352" FieldName="{@TTR_ARR_RMS}"><FormattedValue>Заезд комн.</FormattedValue><Value>Заезд комн.</Value></Field>
+</Section>
+<Section SectionNumber="34">
+<Field Name="Field157" FieldName="{@ARRIVAL_PERSONS_D}"><FormattedValue>52</FormattedValue><Value>52.00</Value></Field>
+<Field Name="Field158" FieldName="{@ARRIVAL_PERSONS_M}"><FormattedValue>52</FormattedValue><Value>52.00</Value></Field>
+<Field Name="Field159" FieldName="{@ARRIVAL_PERSONS_Y}"><FormattedValue>5728</FormattedValue><Value>5728.00</Value></Field>
+<Field Name="Field2" FieldName="{@ARRIVAL_PERSONS_D_LY}"><FormattedValue>0</FormattedValue><Value>0.00</Value></Field>
+<Field Name="Field3" FieldName="{@ARRIVAL_PERSONS_M_LY}"><FormattedValue>0</FormattedValue><Value>0.00</Value></Field>
+<Field Name="Field4" FieldName="{@ARRIVAL_PERSONS_Y_LY}"><FormattedValue>0</FormattedValue><Value>0.00</Value></Field>
+<Field Name="Field354" FieldName="{@TTR_ARR_PRS}"><FormattedValue>Заезд чел.</FormattedValue><Value>Заезд чел.</Value></Field>
+</Section>
+<Section SectionNumber="35">
+<Field Name="Field582" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_ARR_ADULTS_Y}"><FormattedValue>0</FormattedValue><Value>0</Value></Field>
+<Field Name="Field581" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_ARR_ADULTS_M}"><FormattedValue>0</FormattedValue><Value>0</Value></Field>
+<Field Name="Field580" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_ARR_ADULTS_D}"><FormattedValue>0</FormattedValue><Value>0</Value></Field>
+<Field Name="Field570" FieldName="{SMAN.SMAN_ARR_ADULTS_Y}"><FormattedValue>5 183</FormattedValue><Value>5183</Value></Field>
+<Field Name="Field569" FieldName="{SMAN.SMAN_ARR_ADULTS_M}"><FormattedValue>51</FormattedValue><Value>51</Value></Field>
+<Field Name="Field568" FieldName="{SMAN.SMAN_ARR_ADULTS_D}"><FormattedValue>51</FormattedValue><Value>51</Value></Field>
+<Field Name="Field567" FieldName="{@TTR_ARR_Adults}"><FormattedValue>Заезд взр.</FormattedValue><Value>Заезд взр.</Value></Field>
+</Section>
+<Section SectionNumber="36">
+<Field Name="Field592" FieldName="{@TTR_ARR_Children}"><FormattedValue>Заезд дет.</FormattedValue><Value>Заезд дет.</Value></Field>
+<Field Name="Field571" FieldName="{SMAN.SMAN_ARR_CHILDS_D}"><FormattedValue>1</FormattedValue><Value>1</Value></Field>
+<Field Name="Field572" FieldName="{SMAN.SMAN_ARR_CHILDS_M}"><FormattedValue>1</FormattedValue><Value>1</Value></Field>
+<Field Name="Field573" FieldName="{SMAN.SMAN_ARR_CHILDS_Y}"><FormattedValue>545</FormattedValue><Value>545</Value></Field>
+<Field Name="Field583" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_ARR_CHILDS_D}"><FormattedValue>0</FormattedValue><Value>0</Value></Field>
+<Field Name="Field584" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_ARR_CHILDS_M}"><FormattedValue>0</FormattedValue><Value>0</Value></Field>
+<Field Name="Field585" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_ARR_CHILDS_Y}"><FormattedValue>0</FormattedValue><Value>0</Value></Field>
+</Section>
+<Section SectionNumber="37">
+</Section>
+<Section SectionNumber="38">
+<Field Name="Field51" FieldName="{SMAN.SMAN_DEP_ROOMS_D}"><FormattedValue>57</FormattedValue><Value>57</Value></Field>
+<Field Name="Field52" FieldName="{SMAN.SMAN_DEP_ROOMS_M}"><FormattedValue>57</FormattedValue><Value>57</Value></Field>
+<Field Name="Field53" FieldName="{SMAN.SMAN_DEP_ROOMS_Y}"><FormattedValue>2482</FormattedValue><Value>2482</Value></Field>
+<Field Name="Field154" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_DEP_ROOMS_D}"><FormattedValue>0</FormattedValue><Value>0</Value></Field>
+<Field Name="Field155" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_DEP_ROOMS_M}"><FormattedValue>0</FormattedValue><Value>0</Value></Field>
+<Field Name="Field156" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_DEP_ROOMS_Y}"><FormattedValue>0</FormattedValue><Value>0</Value></Field>
+<Field Name="Field353" FieldName="{@TTR_DEP_RMS}"><FormattedValue>Выезд комн</FormattedValue><Value>Выезд комн</Value></Field>
+</Section>
+<Section SectionNumber="39">
+<Field Name="Field160" FieldName="{@DEPARTURE_PERSONS_D}"><FormattedValue>139</FormattedValue><Value>139.00</Value></Field>
+<Field Name="Field161" FieldName="{@DEPARTURE_PERSONS_M}"><FormattedValue>139</FormattedValue><Value>139.00</Value></Field>
+<Field Name="Field162" FieldName="{@DEPARTURE_PERSONS_Y}"><FormattedValue>5674</FormattedValue><Value>5674.00</Value></Field>
+<Field Name="Field17" FieldName="{@DEPARTURE_PERSONS_D_LY}"><FormattedValue>0</FormattedValue><Value>0.00</Value></Field>
+<Field Name="Field55" FieldName="{@DEPARTURE_PERSONS_M_LY}"><FormattedValue>0</FormattedValue><Value>0.00</Value></Field>
+<Field Name="Field56" FieldName="{@DEPARTURE_PERSONS_Y_LY}"><FormattedValue>0</FormattedValue><Value>0.00</Value></Field>
+<Field Name="Field355" FieldName="{@TTR_DEP_PRS}"><FormattedValue>Выезд чел.</FormattedValue><Value>Выезд чел.</Value></Field>
+</Section>
+<Section SectionNumber="40">
+<Field Name="Field593" FieldName="{@TTR_DEP_Adults}"><FormattedValue>Выезд Чел</FormattedValue><Value>Выезд Чел</Value></Field>
+<Field Name="Field574" FieldName="{SMAN.SMAN_DEP_ADULTS_D}"><FormattedValue>126</FormattedValue><Value>126</Value></Field>
+<Field Name="Field575" FieldName="{SMAN.SMAN_DEP_ADULTS_M}"><FormattedValue>126</FormattedValue><Value>126</Value></Field>
+<Field Name="Field576" FieldName="{SMAN.SMAN_DEP_ADULTS_Y}"><FormattedValue>5 129</FormattedValue><Value>5129</Value></Field>
+<Field Name="Field586" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_DEP_ADULTS_D}"><FormattedValue>0</FormattedValue><Value>0</Value></Field>
+<Field Name="Field587" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_DEP_ADULTS_M}"><FormattedValue>0</FormattedValue><Value>0</Value></Field>
+<Field Name="Field588" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_DEP_ADULTS_Y}"><FormattedValue>0</FormattedValue><Value>0</Value></Field>
+</Section>
+<Section SectionNumber="41">
+<Field Name="Field594" FieldName="{@TTR_DEP_Children}"><FormattedValue>Выезд дет.</FormattedValue><Value>Выезд дет.</Value></Field>
+<Field Name="Field577" FieldName="{SMAN.SMAN_DEP_CHILDS_D}"><FormattedValue>13</FormattedValue><Value>13</Value></Field>
+<Field Name="Field578" FieldName="{SMAN.SMAN_DEP_CHILDS_M}"><FormattedValue>13</FormattedValue><Value>13</Value></Field>
+<Field Name="Field579" FieldName="{SMAN.SMAN_DEP_CHILDS_Y}"><FormattedValue>545</FormattedValue><Value>545</Value></Field>
+<Field Name="Field589" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_DEP_CHILDS_D}"><FormattedValue>0</FormattedValue><Value>0</Value></Field>
+<Field Name="Field590" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_DEP_CHILDS_M}"><FormattedValue>0</FormattedValue><Value>0</Value></Field>
+<Field Name="Field591" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_DEP_CHILDS_Y}"><FormattedValue>0</FormattedValue><Value>0</Value></Field>
+</Section>
+<Section SectionNumber="42">
+</Section>
+<Section SectionNumber="43">
+<Field Name="Field57" FieldName="{SMAN.SMAN_RESMADETODAY_D}"><FormattedValue>25</FormattedValue><Value>25</Value></Field>
+<Field Name="Field58" FieldName="{SMAN.SMAN_RESMADETODAY_M}"><FormattedValue>25</FormattedValue><Value>25</Value></Field>
+<Field Name="Field59" FieldName="{SMAN.SMAN_RESMADETODAY_Y}"><FormattedValue>2546</FormattedValue><Value>2546</Value></Field>
+<Field Name="Field172" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_RESMADETODAY_D}"><FormattedValue>0</FormattedValue><Value>0</Value></Field>
+<Field Name="Field173" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_RESMADETODAY_M}"><FormattedValue>0</FormattedValue><Value>0</Value></Field>
+<Field Name="Field174" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_RESMADETODAY_Y}"><FormattedValue>0</FormattedValue><Value>0</Value></Field>
+<Field Name="Field359" FieldName="{@TTR_RES_MADE_TODAY}"><FormattedValue>Брони сдел. сегодня</FormattedValue><Value>Брони сдел. сегодня</Value></Field>
+</Section>
+<Section SectionNumber="44">
+<Field Name="Field60" FieldName="{SMAN.SMAN_WALKIN_D}"><FormattedValue>2</FormattedValue><Value>2</Value></Field>
+<Field Name="Field61" FieldName="{SMAN.SMAN_WALKIN_M}"><FormattedValue>2</FormattedValue><Value>2</Value></Field>
+<Field Name="Field62" FieldName="{SMAN.SMAN_WALKIN_Y}"><FormattedValue>32</FormattedValue><Value>32</Value></Field>
+<Field Name="Field175" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_WALKIN_D}"><FormattedValue>0</FormattedValue><Value>0</Value></Field>
+<Field Name="Field176" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_WALKIN_M}"><FormattedValue>0</FormattedValue><Value>0</Value></Field>
+<Field Name="Field177" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_WALKIN_Y}"><FormattedValue>0</FormattedValue><Value>0</Value></Field>
+<Field Name="Field360" FieldName="{@TTR_WALKIN}"><FormattedValue>От стойки</FormattedValue><Value>От стойки</Value></Field>
+</Section>
+<Section SectionNumber="45">
+<Field Name="Field99" FieldName="{SMAN.SMAN_CANCFORTODAY_D}"><FormattedValue>14</FormattedValue><Value>14</Value></Field>
+<Field Name="Field100" FieldName="{SMAN.SMAN_CANCFORTODAY_M}"><FormattedValue>14</FormattedValue><Value>14</Value></Field>
+<Field Name="Field101" FieldName="{SMAN.SMAN_CANCFORTODAY_Y}"><FormattedValue>1 397</FormattedValue><Value>1397</Value></Field>
+<Field Name="Field178" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_CANCFORTODAY_D}"><FormattedValue>0</FormattedValue><Value>0</Value></Field>
+<Field Name="Field179" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_CANCFORTODAY_M}"><FormattedValue>0</FormattedValue><Value>0</Value></Field>
+<Field Name="Field180" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_CANCFORTODAY_Y}"><FormattedValue>0</FormattedValue><Value>0</Value></Field>
+<Field Name="Field361" FieldName="{@TTR_CXL_FOR_TODAY}"><FormattedValue>Отмены на сегодня</FormattedValue><Value>Отмены на сегодня</Value></Field>
+</Section>
+<Section SectionNumber="46">
+<Field Name="Field111" FieldName="{SMAN.SMAN_RESCANCELEDTODAY_D}"><FormattedValue>17</FormattedValue><Value>17</Value></Field>
+<Field Name="Field112" FieldName="{SMAN.SMAN_RESCANCELEDTODAY_M}"><FormattedValue>17</FormattedValue><Value>17</Value></Field>
+<Field Name="Field113" FieldName="{SMAN.SMAN_RESCANCELEDTODAY_Y}"><FormattedValue>1 488</FormattedValue><Value>1488</Value></Field>
+<Field Name="Field181" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_RESCANCELEDTODAY_D}"><FormattedValue>0</FormattedValue><Value>0</Value></Field>
+<Field Name="Field182" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_RESCANCELEDTODAY_M}"><FormattedValue>0</FormattedValue><Value>0</Value></Field>
+<Field Name="Field183" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_RESCANCELEDTODAY_Y}"><FormattedValue>0</FormattedValue><Value>0</Value></Field>
+<Field Name="Field362" FieldName="{@TTR_CXL_MADE_TODAY}"><FormattedValue>Отмены сдел. сегодня</FormattedValue><Value>Отмены сдел. сегодня</Value></Field>
+</Section>
+<Section SectionNumber="47">
+<Field Name="Field118" FieldName="{SMAN.SMAN_NOSHOWROOMS_D}"><FormattedValue>0</FormattedValue><Value>0</Value></Field>
+<Field Name="Field119" FieldName="{SMAN.SMAN_NOSHOWROOMS_M}"><FormattedValue>0</FormattedValue><Value>0</Value></Field>
+<Field Name="Field120" FieldName="{SMAN.SMAN_NOSHOWROOMS_Y}"><FormattedValue>26</FormattedValue><Value>26</Value></Field>
+<Field Name="Field184" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_NOSHOWROOMS_D}"><FormattedValue>0</FormattedValue><Value>0</Value></Field>
+<Field Name="Field185" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_NOSHOWROOMS_M}"><FormattedValue>0</FormattedValue><Value>0</Value></Field>
+<Field Name="Field186" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_NOSHOWROOMS_Y}"><FormattedValue>0</FormattedValue><Value>0</Value></Field>
+<Field Name="Field366" FieldName="{@TTR_NOSHOW}"><FormattedValue>Незаезды</FormattedValue><Value>Незаезды</Value></Field>
+</Section>
+<Section SectionNumber="48">
+<Field Name="Field121" FieldName="{SMAN.SMAN_DAYUSEROOMS_D}"><FormattedValue>3</FormattedValue><Value>3</Value></Field>
+<Field Name="Field122" FieldName="{SMAN.SMAN_DAYUSEROOMS_M}"><FormattedValue>3</FormattedValue><Value>3</Value></Field>
+<Field Name="Field123" FieldName="{SMAN.SMAN_DAYUSEROOMS_Y}"><FormattedValue>50</FormattedValue><Value>50</Value></Field>
+<Field Name="Field187" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_DAYUSEROOMS_D}"><FormattedValue>0</FormattedValue><Value>0</Value></Field>
+<Field Name="Field188" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_DAYUSEROOMS_M}"><FormattedValue>0</FormattedValue><Value>0</Value></Field>
+<Field Name="Field189" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_DAYUSEROOMS_Y}"><FormattedValue>0</FormattedValue><Value>0</Value></Field>
+<Field Name="Field367" FieldName="{@TTR_DAYUSE}"><FormattedValue>Дневн. прож.</FormattedValue><Value>Дневн. прож.</Value></Field>
+</Section>
+<Section SectionNumber="49">
+</Section>
+<Section SectionNumber="59">
+<Field Name="Field63" FieldName="{SMAN.SMAN_TOTALGROSSREV_D}"><FormattedValue>8 294 510,50</FormattedValue><Value>8294510.50</Value></Field>
+<Field Name="Field64" FieldName="{SMAN.SMAN_TOTALGROSSREV_M}"><FormattedValue>8 294 510,50</FormattedValue><Value>8294510.50</Value></Field>
+<Field Name="Field65" FieldName="{SMAN.SMAN_TOTALGROSSREV_Y}"><FormattedValue>633 835 271,21</FormattedValue><Value>633835271.21</Value></Field>
+<Field Name="Field190" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_TOTALGROSSREV_D}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="Field191" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_TOTALGROSSREV_M}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="Field192" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_TOTALGROSSREV_Y}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="Field368" FieldName="{@TTR_REV_GROSS_HOTEL}"><FormattedValue>Доход с нал. гост. дох</FormattedValue><Value>Доход с нал. гост. дох</Value></Field>
+</Section>
+<Section SectionNumber="60">
+<Field Name="Field66" FieldName="{SMAN.SMAN_TOTALNETREV_D}"><FormattedValue>7 405 812,93</FormattedValue><Value>7405812.93</Value></Field>
+<Field Name="Field67" FieldName="{SMAN.SMAN_TOTALNETREV_M}"><FormattedValue>7 405 812,93</FormattedValue><Value>7405812.93</Value></Field>
+<Field Name="Field68" FieldName="{SMAN.SMAN_TOTALNETREV_Y}"><FormattedValue>565 924 347,65</FormattedValue><Value>565924347.65</Value></Field>
+<Field Name="Field193" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_TOTALNETREV_D}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="Field194" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_TOTALNETREV_M}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="Field195" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_TOTALNETREV_Y}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="Field371" FieldName="{@TTR_REV_NET_HOTEL}"><FormattedValue>Доход без нал. гост. дох</FormattedValue><Value>Доход без нал. гост. дох</Value></Field>
+</Section>
+<Section SectionNumber="61">
+<Field Name="Field96" FieldName="{SMAN.SMAN_PAYMENTS_D}"><FormattedValue>12 680 511,50</FormattedValue><Value>12680511.50</Value></Field>
+<Field Name="Field97" FieldName="{SMAN.SMAN_PAYMENTS_M}"><FormattedValue>12 680 511,50</FormattedValue><Value>12680511.50</Value></Field>
+<Field Name="Field98" FieldName="{SMAN.SMAN_PAYMENTS_Y}"><FormattedValue>644 890 188,21</FormattedValue><Value>644890188.21</Value></Field>
+<Field Name="Field196" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_PAYMENTS_D}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="Field197" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_PAYMENTS_M}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="Field198" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_PAYMENTS_Y}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="Field372" FieldName="{@TTR_PAYMENTS}"><FormattedValue>Оплаты</FormattedValue><Value>Оплаты</Value></Field>
+</Section>
+<Section SectionNumber="73">
+</Section>
+<Section SectionNumber="74">
+<Field Name="Field102" FieldName="{SMAN.SMAN_ROOMREVGROSS_D}"><FormattedValue>2 557 674,00</FormattedValue><Value>2557674.00</Value></Field>
+<Field Name="Field103" FieldName="{SMAN.SMAN_ROOMREVGROSS_M}"><FormattedValue>2 557 674,00</FormattedValue><Value>2557674.00</Value></Field>
+<Field Name="Field104" FieldName="{SMAN.SMAN_ROOMREVGROSS_Y}"><FormattedValue>242 589 182,80</FormattedValue><Value>242589182.80</Value></Field>
+<Field Name="Field217" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_ROOMREVGROSS_D}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="Field218" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_ROOMREVGROSS_M}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="Field219" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_ROOMREVGROSS_Y}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="Field330" FieldName="{@TTR_REV_ROOMS_GROSS}"><FormattedValue>Доход прож. с нал.</FormattedValue><Value>Доход прож. с нал.</Value></Field>
+</Section>
+<Section SectionNumber="75">
+<Field Name="Field105" FieldName="{SMAN.SMAN_ROOMREVNET_D}"><FormattedValue>2 283 637,55</FormattedValue><Value>2283637.55</Value></Field>
+<Field Name="Field106" FieldName="{SMAN.SMAN_ROOMREVNET_M}"><FormattedValue>2 283 637,55</FormattedValue><Value>2283637.55</Value></Field>
+<Field Name="Field107" FieldName="{SMAN.SMAN_ROOMREVNET_Y}"><FormattedValue>216 597 487,29</FormattedValue><Value>216597487.29</Value></Field>
+<Field Name="Field220" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_ROOMREVNET_D}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="Field221" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_ROOMREVNET_M}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="Field222" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_ROOMREVNET_Y}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="Field331" FieldName="{@TTR_REV_RMS_NET}"><FormattedValue>Доход прож. без нал.</FormattedValue><Value>Доход прож. без нал.</Value></Field>
+</Section>
+<Section SectionNumber="76">
+<Field Name="Feld6" FieldName="{SMAN.SMAN_FBREVGROSS_D}"><FormattedValue>5 484 464,50</FormattedValue><Value>5484464.50</Value></Field>
+<Field Name="Feld8" FieldName="{SMAN.SMAN_FBREVGROSS_M}"><FormattedValue>5 484 464,50</FormattedValue><Value>5484464.50</Value></Field>
+<Field Name="Feld10" FieldName="{SMAN.SMAN_FBREVGROSS_Y}"><FormattedValue>358 130 539,41</FormattedValue><Value>358130539.41</Value></Field>
+<Field Name="Field199" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_FBREVGROSS_D}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="Field200" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_FBREVGROSS_M}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="Field201" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_FBREVGROSS_Y}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="Field332" FieldName="{@TTR_REV_FB_GROSS}"><FormattedValue>Доход пит. с нал.</FormattedValue><Value>Доход пит. с нал.</Value></Field>
+</Section>
+<Section SectionNumber="77">
+<Subreport Name="Subreport1">
+<ReportHeader>
+</ReportHeader>
+<Details Level="1">
+<Section SectionNumber="0">
+<Field Name="ZDCGLONGDESC1" FieldName="{HRS_FB_REV_DT.ZDCG_LONGDESC}"><FormattedValue>Staff Питание</FormattedValue><Value>Staff Питание</Value></Field>
+<Field Name="NETREVD1" FieldName="{HRS_FB_REV_DT.NETREV_D}"><FormattedValue>6 170,00</FormattedValue><Value>6170.00</Value></Field>
+<Field Name="NETREVM1" FieldName="{HRS_FB_REV_DT.NETREV_M}"><FormattedValue>6 170,00</FormattedValue><Value>6170.00</Value></Field>
+<Field Name="NETREVY1" FieldName="{HRS_FB_REV_DT.NETREV_Y}"><FormattedValue>1 066 165,00</FormattedValue><Value>1066165.00</Value></Field>
+<Field Name="NETREVDLY1" FieldName="{HRS_FB_REV_DT.NETREV_D_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="NETREVMLY1" FieldName="{HRS_FB_REV_DT.NETREV_M_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="NETREVYLY1" FieldName="{HRS_FB_REV_DT.NETREV_Y_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+</Section>
+</Details>
+<Details Level="1">
+<Section SectionNumber="0">
+<Field Name="ZDCGLONGDESC1" FieldName="{HRS_FB_REV_DT.ZDCG_LONGDESC}"><FormattedValue>Пятачок ДКА</FormattedValue><Value>Пятачок ДКА</Value></Field>
+<Field Name="NETREVD1" FieldName="{HRS_FB_REV_DT.NETREV_D}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="NETREVM1" FieldName="{HRS_FB_REV_DT.NETREV_M}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="NETREVY1" FieldName="{HRS_FB_REV_DT.NETREV_Y}"><FormattedValue>391 510,00</FormattedValue><Value>391510.00</Value></Field>
+<Field Name="NETREVDLY1" FieldName="{HRS_FB_REV_DT.NETREV_D_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="NETREVMLY1" FieldName="{HRS_FB_REV_DT.NETREV_M_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="NETREVYLY1" FieldName="{HRS_FB_REV_DT.NETREV_Y_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+</Section>
+</Details>
+<Details Level="1">
+<Section SectionNumber="0">
+<Field Name="ZDCGLONGDESC1" FieldName="{HRS_FB_REV_DT.ZDCG_LONGDESC}"><FormattedValue>Ак-Ауыл</FormattedValue><Value>Ак-Ауыл</Value></Field>
+<Field Name="NETREVD1" FieldName="{HRS_FB_REV_DT.NETREV_D}"><FormattedValue>1 257 020,00</FormattedValue><Value>1257020.00</Value></Field>
+<Field Name="NETREVM1" FieldName="{HRS_FB_REV_DT.NETREV_M}"><FormattedValue>1 257 020,00</FormattedValue><Value>1257020.00</Value></Field>
+<Field Name="NETREVY1" FieldName="{HRS_FB_REV_DT.NETREV_Y}"><FormattedValue>70 139 184,00</FormattedValue><Value>70139184.00</Value></Field>
+<Field Name="NETREVDLY1" FieldName="{HRS_FB_REV_DT.NETREV_D_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="NETREVMLY1" FieldName="{HRS_FB_REV_DT.NETREV_M_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="NETREVYLY1" FieldName="{HRS_FB_REV_DT.NETREV_Y_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+</Section>
+</Details>
+<Details Level="1">
+<Section SectionNumber="0">
+<Field Name="ZDCGLONGDESC1" FieldName="{HRS_FB_REV_DT.ZDCG_LONGDESC}"><FormattedValue>Чашнагири</FormattedValue><Value>Чашнагири</Value></Field>
+<Field Name="NETREVD1" FieldName="{HRS_FB_REV_DT.NETREV_D}"><FormattedValue>1 868 300,00</FormattedValue><Value>1868300.00</Value></Field>
+<Field Name="NETREVM1" FieldName="{HRS_FB_REV_DT.NETREV_M}"><FormattedValue>1 868 300,00</FormattedValue><Value>1868300.00</Value></Field>
+<Field Name="NETREVY1" FieldName="{HRS_FB_REV_DT.NETREV_Y}"><FormattedValue>89 418 146,60</FormattedValue><Value>89418146.60</Value></Field>
+<Field Name="NETREVDLY1" FieldName="{HRS_FB_REV_DT.NETREV_D_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="NETREVMLY1" FieldName="{HRS_FB_REV_DT.NETREV_M_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="NETREVYLY1" FieldName="{HRS_FB_REV_DT.NETREV_Y_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+</Section>
+</Details>
+<Details Level="1">
+<Section SectionNumber="0">
+<Field Name="ZDCGLONGDESC1" FieldName="{HRS_FB_REV_DT.ZDCG_LONGDESC}"><FormattedValue>Весёлый Бургер</FormattedValue><Value>Весёлый Бургер</Value></Field>
+<Field Name="NETREVD1" FieldName="{HRS_FB_REV_DT.NETREV_D}"><FormattedValue>249 860,00</FormattedValue><Value>249860.00</Value></Field>
+<Field Name="NETREVM1" FieldName="{HRS_FB_REV_DT.NETREV_M}"><FormattedValue>249 860,00</FormattedValue><Value>249860.00</Value></Field>
+<Field Name="NETREVY1" FieldName="{HRS_FB_REV_DT.NETREV_Y}"><FormattedValue>5 013 839,50</FormattedValue><Value>5013839.50</Value></Field>
+<Field Name="NETREVDLY1" FieldName="{HRS_FB_REV_DT.NETREV_D_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="NETREVMLY1" FieldName="{HRS_FB_REV_DT.NETREV_M_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="NETREVYLY1" FieldName="{HRS_FB_REV_DT.NETREV_Y_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+</Section>
+</Details>
+<Details Level="1">
+<Section SectionNumber="0">
+<Field Name="ZDCGLONGDESC1" FieldName="{HRS_FB_REV_DT.ZDCG_LONGDESC}"><FormattedValue>Aport Alatau</FormattedValue><Value>Aport Alatau</Value></Field>
+<Field Name="NETREVD1" FieldName="{HRS_FB_REV_DT.NETREV_D}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="NETREVM1" FieldName="{HRS_FB_REV_DT.NETREV_M}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="NETREVY1" FieldName="{HRS_FB_REV_DT.NETREV_Y}"><FormattedValue>36 545 712,50</FormattedValue><Value>36545712.50</Value></Field>
+<Field Name="NETREVDLY1" FieldName="{HRS_FB_REV_DT.NETREV_D_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="NETREVMLY1" FieldName="{HRS_FB_REV_DT.NETREV_M_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="NETREVYLY1" FieldName="{HRS_FB_REV_DT.NETREV_Y_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+</Section>
+</Details>
+<Details Level="1">
+<Section SectionNumber="0">
+<Field Name="ZDCGLONGDESC1" FieldName="{HRS_FB_REV_DT.ZDCG_LONGDESC}"><FormattedValue>Room service</FormattedValue><Value>Room service</Value></Field>
+<Field Name="NETREVD1" FieldName="{HRS_FB_REV_DT.NETREV_D}"><FormattedValue>31 680,00</FormattedValue><Value>31680.00</Value></Field>
+<Field Name="NETREVM1" FieldName="{HRS_FB_REV_DT.NETREV_M}"><FormattedValue>31 680,00</FormattedValue><Value>31680.00</Value></Field>
+<Field Name="NETREVY1" FieldName="{HRS_FB_REV_DT.NETREV_Y}"><FormattedValue>4 991 056,50</FormattedValue><Value>4991056.50</Value></Field>
+<Field Name="NETREVDLY1" FieldName="{HRS_FB_REV_DT.NETREV_D_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="NETREVMLY1" FieldName="{HRS_FB_REV_DT.NETREV_M_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="NETREVYLY1" FieldName="{HRS_FB_REV_DT.NETREV_Y_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+</Section>
+</Details>
+<Details Level="1">
+<Section SectionNumber="0">
+<Field Name="ZDCGLONGDESC1" FieldName="{HRS_FB_REV_DT.ZDCG_LONGDESC}"><FormattedValue>Visa Lounge 1670</FormattedValue><Value>Visa Lounge 1670</Value></Field>
+<Field Name="NETREVD1" FieldName="{HRS_FB_REV_DT.NETREV_D}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="NETREVM1" FieldName="{HRS_FB_REV_DT.NETREV_M}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="NETREVY1" FieldName="{HRS_FB_REV_DT.NETREV_Y}"><FormattedValue>313 555,00</FormattedValue><Value>313555.00</Value></Field>
+<Field Name="NETREVDLY1" FieldName="{HRS_FB_REV_DT.NETREV_D_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="NETREVMLY1" FieldName="{HRS_FB_REV_DT.NETREV_M_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="NETREVYLY1" FieldName="{HRS_FB_REV_DT.NETREV_Y_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+</Section>
+</Details>
+<Details Level="1">
+<Section SectionNumber="0">
+<Field Name="ZDCGLONGDESC1" FieldName="{HRS_FB_REV_DT.ZDCG_LONGDESC}"><FormattedValue>Rider&apos;s Grill bar</FormattedValue><Value>Rider&apos;s Grill bar</Value></Field>
+<Field Name="NETREVD1" FieldName="{HRS_FB_REV_DT.NETREV_D}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="NETREVM1" FieldName="{HRS_FB_REV_DT.NETREV_M}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="NETREVY1" FieldName="{HRS_FB_REV_DT.NETREV_Y}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="NETREVDLY1" FieldName="{HRS_FB_REV_DT.NETREV_D_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="NETREVMLY1" FieldName="{HRS_FB_REV_DT.NETREV_M_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="NETREVYLY1" FieldName="{HRS_FB_REV_DT.NETREV_Y_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+</Section>
+</Details>
+<Details Level="1">
+<Section SectionNumber="0">
+<Field Name="ZDCGLONGDESC1" FieldName="{HRS_FB_REV_DT.ZDCG_LONGDESC}"><FormattedValue>Пятачок EPP</FormattedValue><Value>Пятачок EPP</Value></Field>
+<Field Name="NETREVD1" FieldName="{HRS_FB_REV_DT.NETREV_D}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="NETREVM1" FieldName="{HRS_FB_REV_DT.NETREV_M}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="NETREVY1" FieldName="{HRS_FB_REV_DT.NETREV_Y}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="NETREVDLY1" FieldName="{HRS_FB_REV_DT.NETREV_D_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="NETREVMLY1" FieldName="{HRS_FB_REV_DT.NETREV_M_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="NETREVYLY1" FieldName="{HRS_FB_REV_DT.NETREV_Y_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+</Section>
+</Details>
+<Details Level="1">
+<Section SectionNumber="0">
+<Field Name="ZDCGLONGDESC1" FieldName="{HRS_FB_REV_DT.ZDCG_LONGDESC}"><FormattedValue>Пятачок КЦ</FormattedValue><Value>Пятачок КЦ</Value></Field>
+<Field Name="NETREVD1" FieldName="{HRS_FB_REV_DT.NETREV_D}"><FormattedValue>41 240,00</FormattedValue><Value>41240.00</Value></Field>
+<Field Name="NETREVM1" FieldName="{HRS_FB_REV_DT.NETREV_M}"><FormattedValue>41 240,00</FormattedValue><Value>41240.00</Value></Field>
+<Field Name="NETREVY1" FieldName="{HRS_FB_REV_DT.NETREV_Y}"><FormattedValue>1 665 330,00</FormattedValue><Value>1665330.00</Value></Field>
+<Field Name="NETREVDLY1" FieldName="{HRS_FB_REV_DT.NETREV_D_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="NETREVMLY1" FieldName="{HRS_FB_REV_DT.NETREV_M_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="NETREVYLY1" FieldName="{HRS_FB_REV_DT.NETREV_Y_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+</Section>
+</Details>
+<Details Level="1">
+<Section SectionNumber="0">
+<Field Name="ZDCGLONGDESC1" FieldName="{HRS_FB_REV_DT.ZDCG_LONGDESC}"><FormattedValue>Сувенирная лавка</FormattedValue><Value>Сувенирная лавка</Value></Field>
+<Field Name="NETREVD1" FieldName="{HRS_FB_REV_DT.NETREV_D}"><FormattedValue>113 340,00</FormattedValue><Value>113340.00</Value></Field>
+<Field Name="NETREVM1" FieldName="{HRS_FB_REV_DT.NETREV_M}"><FormattedValue>113 340,00</FormattedValue><Value>113340.00</Value></Field>
+<Field Name="NETREVY1" FieldName="{HRS_FB_REV_DT.NETREV_Y}"><FormattedValue>2 276 110,00</FormattedValue><Value>2276110.00</Value></Field>
+<Field Name="NETREVDLY1" FieldName="{HRS_FB_REV_DT.NETREV_D_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="NETREVMLY1" FieldName="{HRS_FB_REV_DT.NETREV_M_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="NETREVYLY1" FieldName="{HRS_FB_REV_DT.NETREV_Y_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+</Section>
+</Details>
+<Details Level="1">
+<Section SectionNumber="0">
+<Field Name="ZDCGLONGDESC1" FieldName="{HRS_FB_REV_DT.ZDCG_LONGDESC}"><FormattedValue>Завтраки</FormattedValue><Value>Завтраки</Value></Field>
+<Field Name="NETREVD1" FieldName="{HRS_FB_REV_DT.NETREV_D}"><FormattedValue>390 500,00</FormattedValue><Value>390500.00</Value></Field>
+<Field Name="NETREVM1" FieldName="{HRS_FB_REV_DT.NETREV_M}"><FormattedValue>390 500,00</FormattedValue><Value>390500.00</Value></Field>
+<Field Name="NETREVY1" FieldName="{HRS_FB_REV_DT.NETREV_Y}"><FormattedValue>35 916 790,84</FormattedValue><Value>35916790.84</Value></Field>
+<Field Name="NETREVDLY1" FieldName="{HRS_FB_REV_DT.NETREV_D_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="NETREVMLY1" FieldName="{HRS_FB_REV_DT.NETREV_M_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="NETREVYLY1" FieldName="{HRS_FB_REV_DT.NETREV_Y_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+</Section>
+</Details>
+<Details Level="1">
+<Section SectionNumber="0">
+<Field Name="ZDCGLONGDESC1" FieldName="{HRS_FB_REV_DT.ZDCG_LONGDESC}"><FormattedValue>Пятачок Ride Sch</FormattedValue><Value>Пятачок Ride Sch</Value></Field>
+<Field Name="NETREVD1" FieldName="{HRS_FB_REV_DT.NETREV_D}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="NETREVM1" FieldName="{HRS_FB_REV_DT.NETREV_M}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="NETREVY1" FieldName="{HRS_FB_REV_DT.NETREV_Y}"><FormattedValue>3 123 170,00</FormattedValue><Value>3123170.00</Value></Field>
+<Field Name="NETREVDLY1" FieldName="{HRS_FB_REV_DT.NETREV_D_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="NETREVMLY1" FieldName="{HRS_FB_REV_DT.NETREV_M_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="NETREVYLY1" FieldName="{HRS_FB_REV_DT.NETREV_Y_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+</Section>
+</Details>
+<Details Level="1">
+<Section SectionNumber="0">
+<Field Name="ZDCGLONGDESC1" FieldName="{HRS_FB_REV_DT.ZDCG_LONGDESC}"><FormattedValue>Аренда Локаций</FormattedValue><Value>Аренда Локаций</Value></Field>
+<Field Name="NETREVD1" FieldName="{HRS_FB_REV_DT.NETREV_D}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="NETREVM1" FieldName="{HRS_FB_REV_DT.NETREV_M}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="NETREVY1" FieldName="{HRS_FB_REV_DT.NETREV_Y}"><FormattedValue>150 000,00</FormattedValue><Value>150000.00</Value></Field>
+<Field Name="NETREVDLY1" FieldName="{HRS_FB_REV_DT.NETREV_D_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="NETREVMLY1" FieldName="{HRS_FB_REV_DT.NETREV_M_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="NETREVYLY1" FieldName="{HRS_FB_REV_DT.NETREV_Y_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+</Section>
+</Details>
+<Details Level="1">
+<Section SectionNumber="0">
+<Field Name="ZDCGLONGDESC1" FieldName="{HRS_FB_REV_DT.ZDCG_LONGDESC}"><FormattedValue>Пятачок ККД 4</FormattedValue><Value>Пятачок ККД 4</Value></Field>
+<Field Name="NETREVD1" FieldName="{HRS_FB_REV_DT.NETREV_D}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="NETREVM1" FieldName="{HRS_FB_REV_DT.NETREV_M}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="NETREVY1" FieldName="{HRS_FB_REV_DT.NETREV_Y}"><FormattedValue>3 116 060,00</FormattedValue><Value>3116060.00</Value></Field>
+<Field Name="NETREVDLY1" FieldName="{HRS_FB_REV_DT.NETREV_D_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="NETREVMLY1" FieldName="{HRS_FB_REV_DT.NETREV_M_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="NETREVYLY1" FieldName="{HRS_FB_REV_DT.NETREV_Y_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+</Section>
+</Details>
+<Details Level="1">
+<Section SectionNumber="0">
+<Field Name="ZDCGLONGDESC1" FieldName="{HRS_FB_REV_DT.ZDCG_LONGDESC}"><FormattedValue>Пятачок 1820</FormattedValue><Value>Пятачок 1820</Value></Field>
+<Field Name="NETREVD1" FieldName="{HRS_FB_REV_DT.NETREV_D}"><FormattedValue>281 400,00</FormattedValue><Value>281400.00</Value></Field>
+<Field Name="NETREVM1" FieldName="{HRS_FB_REV_DT.NETREV_M}"><FormattedValue>281 400,00</FormattedValue><Value>281400.00</Value></Field>
+<Field Name="NETREVY1" FieldName="{HRS_FB_REV_DT.NETREV_Y}"><FormattedValue>5 217 960,00</FormattedValue><Value>5217960.00</Value></Field>
+<Field Name="NETREVDLY1" FieldName="{HRS_FB_REV_DT.NETREV_D_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="NETREVMLY1" FieldName="{HRS_FB_REV_DT.NETREV_M_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="NETREVYLY1" FieldName="{HRS_FB_REV_DT.NETREV_Y_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+</Section>
+</Details>
+<Details Level="1">
+<Section SectionNumber="0">
+<Field Name="ZDCGLONGDESC1" FieldName="{HRS_FB_REV_DT.ZDCG_LONGDESC}"><FormattedValue>Storia Trattoria</FormattedValue><Value>Storia Trattoria</Value></Field>
+<Field Name="NETREVD1" FieldName="{HRS_FB_REV_DT.NETREV_D}"><FormattedValue>1 244 954,50</FormattedValue><Value>1244954.50</Value></Field>
+<Field Name="NETREVM1" FieldName="{HRS_FB_REV_DT.NETREV_M}"><FormattedValue>1 244 954,50</FormattedValue><Value>1244954.50</Value></Field>
+<Field Name="NETREVY1" FieldName="{HRS_FB_REV_DT.NETREV_Y}"><FormattedValue>98 785 949,47</FormattedValue><Value>98785949.47</Value></Field>
+<Field Name="NETREVDLY1" FieldName="{HRS_FB_REV_DT.NETREV_D_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="NETREVMLY1" FieldName="{HRS_FB_REV_DT.NETREV_M_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="NETREVYLY1" FieldName="{HRS_FB_REV_DT.NETREV_Y_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+</Section>
+</Details>
+<Details Level="1">
+<Section SectionNumber="0">
+<Field Name="ZDCGLONGDESC1" FieldName="{HRS_FB_REV_DT.ZDCG_LONGDESC}"><FormattedValue>Гребне 1820</FormattedValue><Value>Гребне 1820</Value></Field>
+<Field Name="NETREVD1" FieldName="{HRS_FB_REV_DT.NETREV_D}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="NETREVM1" FieldName="{HRS_FB_REV_DT.NETREV_M}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="NETREVY1" FieldName="{HRS_FB_REV_DT.NETREV_Y}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="NETREVDLY1" FieldName="{HRS_FB_REV_DT.NETREV_D_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="NETREVMLY1" FieldName="{HRS_FB_REV_DT.NETREV_M_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="NETREVYLY1" FieldName="{HRS_FB_REV_DT.NETREV_Y_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+</Section>
+</Details>
+<Details Level="1">
+<Section SectionNumber="0">
+<Field Name="ZDCGLONGDESC1" FieldName="{HRS_FB_REV_DT.ZDCG_LONGDESC}"><FormattedValue>Panorama Plaza</FormattedValue><Value>Panorama Plaza</Value></Field>
+<Field Name="NETREVD1" FieldName="{HRS_FB_REV_DT.NETREV_D}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="NETREVM1" FieldName="{HRS_FB_REV_DT.NETREV_M}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="NETREVY1" FieldName="{HRS_FB_REV_DT.NETREV_Y}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="NETREVDLY1" FieldName="{HRS_FB_REV_DT.NETREV_D_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="NETREVMLY1" FieldName="{HRS_FB_REV_DT.NETREV_M_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="NETREVYLY1" FieldName="{HRS_FB_REV_DT.NETREV_Y_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+</Section>
+</Details>
+<Details Level="1">
+<Section SectionNumber="0">
+<Field Name="ZDCGLONGDESC1" FieldName="{HRS_FB_REV_DT.ZDCG_LONGDESC}"><FormattedValue>Chef Snacks bar</FormattedValue><Value>Chef Snacks bar</Value></Field>
+<Field Name="NETREVD1" FieldName="{HRS_FB_REV_DT.NETREV_D}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="NETREVM1" FieldName="{HRS_FB_REV_DT.NETREV_M}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="NETREVY1" FieldName="{HRS_FB_REV_DT.NETREV_Y}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="NETREVDLY1" FieldName="{HRS_FB_REV_DT.NETREV_D_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="NETREVMLY1" FieldName="{HRS_FB_REV_DT.NETREV_M_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="NETREVYLY1" FieldName="{HRS_FB_REV_DT.NETREV_Y_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+</Section>
+</Details>
+<ReportFooter>
+</ReportFooter>
+</Subreport>
+</Section>
+<Section SectionNumber="78">
+<Field Name="Feld7" FieldName="{SMAN.SMAN_FBREVNET_D}"><FormattedValue>4 896 843,24</FormattedValue><Value>4896843.24</Value></Field>
+<Field Name="Feld9" FieldName="{SMAN.SMAN_FBREVNET_M}"><FormattedValue>4 896 843,24</FormattedValue><Value>4896843.24</Value></Field>
+<Field Name="Feld11" FieldName="{SMAN.SMAN_FBREVNET_Y}"><FormattedValue>319 759 405,80</FormattedValue><Value>319759405.80</Value></Field>
+<Field Name="Field202" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_FBREVNET_D}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="Field203" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_FBREVNET_M}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="Field204" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_FBREVNET_Y}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="Field333" FieldName="{@TTR_REV_FB_NET}"><FormattedValue>Доход пит. без нал.</FormattedValue><Value>Доход пит. без нал.</Value></Field>
+</Section>
+<Section SectionNumber="79">
+<Field Name="Field74" FieldName="{SMAN.SMAN_MISCREVGROSS_D}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="Field77" FieldName="{SMAN.SMAN_MISCREVGROSS_M}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="Field80" FieldName="{SMAN.SMAN_MISCREVGROSS_Y}"><FormattedValue>11 999 760,00</FormattedValue><Value>11999760.00</Value></Field>
+<Field Name="Field207" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_MISCREVGROSS_D}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="Field210" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_MISCREVGROSS_M}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="Field213" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_MISCREVGROSS_Y}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="Field338" FieldName="{@TTR_REV_MISC_GROSS}"><FormattedValue>Доход проч. с нал.</FormattedValue><Value>Доход проч. с нал.</Value></Field>
+</Section>
+<Section SectionNumber="80">
+<Subreport Name="Subreport2">
+<ReportHeader>
+</ReportHeader>
+<Details Level="1">
+<Section SectionNumber="0">
+<Field Name="ZDCGLONGDESC1" FieldName="{HRS_MIS_REV_DT.ZDCG_LONGDESC}"><FormattedValue>Аренда Локаций</FormattedValue><Value>Аренда Локаций</Value></Field>
+<Field Name="NETREVD1" FieldName="{HRS_MIS_REV_DT.NETREV_D}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="NETREVM1" FieldName="{HRS_MIS_REV_DT.NETREV_M}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="NETREVY1" FieldName="{HRS_MIS_REV_DT.NETREV_Y}"><FormattedValue>8 602 000,00</FormattedValue><Value>8602000.00</Value></Field>
+<Field Name="NETREVDLY1" FieldName="{HRS_MIS_REV_DT.NETREV_D_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="NETREVMLY1" FieldName="{HRS_MIS_REV_DT.NETREV_M_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="NETREVYLY1" FieldName="{HRS_MIS_REV_DT.NETREV_Y_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+</Section>
+</Details>
+<Details Level="1">
+<Section SectionNumber="0">
+<Field Name="ZDCGLONGDESC1" FieldName="{HRS_MIS_REV_DT.ZDCG_LONGDESC}"><FormattedValue>Дополнительные услуги</FormattedValue><Value>Дополнительные услуги</Value></Field>
+<Field Name="NETREVD1" FieldName="{HRS_MIS_REV_DT.NETREV_D}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="NETREVM1" FieldName="{HRS_MIS_REV_DT.NETREV_M}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="NETREVY1" FieldName="{HRS_MIS_REV_DT.NETREV_Y}"><FormattedValue>917 710,00</FormattedValue><Value>917710.00</Value></Field>
+<Field Name="NETREVDLY1" FieldName="{HRS_MIS_REV_DT.NETREV_D_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="NETREVMLY1" FieldName="{HRS_MIS_REV_DT.NETREV_M_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="NETREVYLY1" FieldName="{HRS_MIS_REV_DT.NETREV_Y_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+</Section>
+</Details>
+<ReportFooter>
+</ReportFooter>
+</Subreport>
+</Section>
+<Section SectionNumber="81">
+<Field Name="Field83" FieldName="{SMAN.SMAN_MISCREVNET_D}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="Field86" FieldName="{SMAN.SMAN_MISCREVNET_M}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="Field89" FieldName="{SMAN.SMAN_MISCREVNET_Y}"><FormattedValue>10 714 071,72</FormattedValue><Value>10714071.72</Value></Field>
+<Field Name="Field216" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_MISCREVNET_D}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="Field277" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_MISCREVNET_M}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="Field280" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_MISCREVNET_Y}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="Field339" FieldName="{@TTR_REV_MISC_NET}"><FormattedValue>Доход проч. без нал.</FormattedValue><Value>Доход проч. без нал.</Value></Field>
+</Section>
+<Section SectionNumber="82">
+<Field Name="Field72" FieldName="{SMAN.SMAN_MINIREVGROSS_D}"><FormattedValue>216 025,00</FormattedValue><Value>216025.00</Value></Field>
+<Field Name="Field75" FieldName="{SMAN.SMAN_MINIREVGROSS_M}"><FormattedValue>216 025,00</FormattedValue><Value>216025.00</Value></Field>
+<Field Name="Field78" FieldName="{SMAN.SMAN_MINIREVGROSS_Y}"><FormattedValue>20 082 475,00</FormattedValue><Value>20082475.00</Value></Field>
+<Field Name="Field205" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_MINIREVGROSS_D}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="Field208" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_MINIREVGROSS_M}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="Field211" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_MINIREVGROSS_Y}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="Field334" FieldName="{@TTR_MINBAR_GROSS}"><FormattedValue>Доход SPA. с нал.</FormattedValue><Value>Доход SPA. с нал.</Value></Field>
+</Section>
+<Section SectionNumber="83">
+<Subreport Name="Subreport3">
+<ReportHeader>
+</ReportHeader>
+<Details Level="1">
+<Section SectionNumber="0">
+<Field Name="ZDCGLONGDESC1" FieldName="{HRS_MIN_REV_DT.ZDCG_LONGDESC}"><FormattedValue>Этно Spa Umai</FormattedValue><Value>Этно Spa Umai</Value></Field>
+<Field Name="NETREVD1" FieldName="{HRS_MIN_REV_DT.NETREV_D}"><FormattedValue>216 025,00</FormattedValue><Value>216025.00</Value></Field>
+<Field Name="NETREVM1" FieldName="{HRS_MIN_REV_DT.NETREV_M}"><FormattedValue>216 025,00</FormattedValue><Value>216025.00</Value></Field>
+<Field Name="NETREVY1" FieldName="{HRS_MIN_REV_DT.NETREV_Y}"><FormattedValue>20 082 475,00</FormattedValue><Value>20082475.00</Value></Field>
+<Field Name="NETREVDLY1" FieldName="{HRS_MIN_REV_DT.NETREV_D_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="NETREVMLY1" FieldName="{HRS_MIN_REV_DT.NETREV_M_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="NETREVYLY1" FieldName="{HRS_MIN_REV_DT.NETREV_Y_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+</Section>
+</Details>
+<ReportFooter>
+</ReportFooter>
+</Subreport>
+</Section>
+<Section SectionNumber="84">
+<Field Name="Field81" FieldName="{SMAN.SMAN_MINIREVNET_D}"><FormattedValue>192 879,46</FormattedValue><Value>192879.46</Value></Field>
+<Field Name="Field84" FieldName="{SMAN.SMAN_MINIREVNET_M}"><FormattedValue>192 879,46</FormattedValue><Value>192879.46</Value></Field>
+<Field Name="Field87" FieldName="{SMAN.SMAN_MINIREVNET_Y}"><FormattedValue>17 930 781,09</FormattedValue><Value>17930781.09</Value></Field>
+<Field Name="Field214" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_MINIREVNET_D}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="Field268" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_MINIREVNET_M}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="Field278" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_MINIREVNET_Y}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="Field335" FieldName="{@TTR_MINBAR_NET}"><FormattedValue>Доход SPA. без нал.</FormattedValue><Value>Доход SPA. без нал.</Value></Field>
+</Section>
+<Section SectionNumber="85">
+<Field Name="Field73" FieldName="{SMAN.SMAN_TELEREVGROSS_D}"><FormattedValue>36 347,00</FormattedValue><Value>36347.00</Value></Field>
+<Field Name="Field76" FieldName="{SMAN.SMAN_TELEREVGROSS_M}"><FormattedValue>36 347,00</FormattedValue><Value>36347.00</Value></Field>
+<Field Name="Field79" FieldName="{SMAN.SMAN_TELEREVGROSS_Y}"><FormattedValue>1 033 314,00</FormattedValue><Value>1033314.00</Value></Field>
+<Field Name="Field206" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_TELEREVGROSS_D}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="Field209" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_TELEREVGROSS_M}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="Field212" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_TELEREVGROSS_Y}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="Field336" FieldName="{@TTR_REV_TEL_GROSS}"><FormattedValue>Доход Активности с нал.</FormattedValue><Value>Доход Активности с нал.</Value></Field>
+</Section>
+<Section SectionNumber="86">
+<Subreport Name="Subreport4">
+<ReportHeader>
+</ReportHeader>
+<Details Level="1">
+<Section SectionNumber="0">
+<Field Name="ZDCGLONGDESC1" FieldName="{HRS_TEL_REV_DT.ZDCG_LONGDESC}"><FormattedValue>Спортивный клуб OQ</FormattedValue><Value>Спортивный клуб OQ</Value></Field>
+<Field Name="NETREVD1" FieldName="{HRS_TEL_REV_DT.NETREV_D}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="NETREVM1" FieldName="{HRS_TEL_REV_DT.NETREV_M}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="NETREVY1" FieldName="{HRS_TEL_REV_DT.NETREV_Y}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="NETREVDLY1" FieldName="{HRS_TEL_REV_DT.NETREV_D_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="NETREVMLY1" FieldName="{HRS_TEL_REV_DT.NETREV_M_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="NETREVYLY1" FieldName="{HRS_TEL_REV_DT.NETREV_Y_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+</Section>
+</Details>
+<Details Level="1">
+<Section SectionNumber="0">
+<Field Name="ZDCGLONGDESC1" FieldName="{HRS_TEL_REV_DT.ZDCG_LONGDESC}"><FormattedValue>Мастерская по ремонту</FormattedValue><Value>Мастерская по ремонту</Value></Field>
+<Field Name="NETREVD1" FieldName="{HRS_TEL_REV_DT.NETREV_D}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="NETREVM1" FieldName="{HRS_TEL_REV_DT.NETREV_M}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="NETREVY1" FieldName="{HRS_TEL_REV_DT.NETREV_Y}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="NETREVDLY1" FieldName="{HRS_TEL_REV_DT.NETREV_D_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="NETREVMLY1" FieldName="{HRS_TEL_REV_DT.NETREV_M_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="NETREVYLY1" FieldName="{HRS_TEL_REV_DT.NETREV_Y_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+</Section>
+</Details>
+<Details Level="1">
+<Section SectionNumber="0">
+<Field Name="ZDCGLONGDESC1" FieldName="{HRS_TEL_REV_DT.ZDCG_LONGDESC}"><FormattedValue>Прокат</FormattedValue><Value>Прокат</Value></Field>
+<Field Name="NETREVD1" FieldName="{HRS_TEL_REV_DT.NETREV_D}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="NETREVM1" FieldName="{HRS_TEL_REV_DT.NETREV_M}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="NETREVY1" FieldName="{HRS_TEL_REV_DT.NETREV_Y}"><FormattedValue>90 100,00</FormattedValue><Value>90100.00</Value></Field>
+<Field Name="NETREVDLY1" FieldName="{HRS_TEL_REV_DT.NETREV_D_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="NETREVMLY1" FieldName="{HRS_TEL_REV_DT.NETREV_M_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="NETREVYLY1" FieldName="{HRS_TEL_REV_DT.NETREV_Y_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+</Section>
+</Details>
+<Details Level="1">
+<Section SectionNumber="0">
+<Field Name="ZDCGLONGDESC1" FieldName="{HRS_TEL_REV_DT.ZDCG_LONGDESC}"><FormattedValue>Тюбинг</FormattedValue><Value>Тюбинг</Value></Field>
+<Field Name="NETREVD1" FieldName="{HRS_TEL_REV_DT.NETREV_D}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="NETREVM1" FieldName="{HRS_TEL_REV_DT.NETREV_M}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="NETREVY1" FieldName="{HRS_TEL_REV_DT.NETREV_Y}"><FormattedValue>8 800,00</FormattedValue><Value>8800.00</Value></Field>
+<Field Name="NETREVDLY1" FieldName="{HRS_TEL_REV_DT.NETREV_D_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="NETREVMLY1" FieldName="{HRS_TEL_REV_DT.NETREV_M_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="NETREVYLY1" FieldName="{HRS_TEL_REV_DT.NETREV_Y_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+</Section>
+</Details>
+<Details Level="1">
+<Section SectionNumber="0">
+<Field Name="ZDCGLONGDESC1" FieldName="{HRS_TEL_REV_DT.ZDCG_LONGDESC}"><FormattedValue>Активности</FormattedValue><Value>Активности</Value></Field>
+<Field Name="NETREVD1" FieldName="{HRS_TEL_REV_DT.NETREV_D}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="NETREVM1" FieldName="{HRS_TEL_REV_DT.NETREV_M}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="NETREVY1" FieldName="{HRS_TEL_REV_DT.NETREV_Y}"><FormattedValue>129 500,00</FormattedValue><Value>129500.00</Value></Field>
+<Field Name="NETREVDLY1" FieldName="{HRS_TEL_REV_DT.NETREV_D_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="NETREVMLY1" FieldName="{HRS_TEL_REV_DT.NETREV_M_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="NETREVYLY1" FieldName="{HRS_TEL_REV_DT.NETREV_Y_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+</Section>
+</Details>
+<Details Level="1">
+<Section SectionNumber="0">
+<Field Name="ZDCGLONGDESC1" FieldName="{HRS_TEL_REV_DT.ZDCG_LONGDESC}"><FormattedValue>Детский Центр UGUSHA</FormattedValue><Value>Детский Центр UGUSHA</Value></Field>
+<Field Name="NETREVD1" FieldName="{HRS_TEL_REV_DT.NETREV_D}"><FormattedValue>16 575,00</FormattedValue><Value>16575.00</Value></Field>
+<Field Name="NETREVM1" FieldName="{HRS_TEL_REV_DT.NETREV_M}"><FormattedValue>16 575,00</FormattedValue><Value>16575.00</Value></Field>
+<Field Name="NETREVY1" FieldName="{HRS_TEL_REV_DT.NETREV_Y}"><FormattedValue>180 475,00</FormattedValue><Value>180475.00</Value></Field>
+<Field Name="NETREVDLY1" FieldName="{HRS_TEL_REV_DT.NETREV_D_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="NETREVMLY1" FieldName="{HRS_TEL_REV_DT.NETREV_M_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="NETREVYLY1" FieldName="{HRS_TEL_REV_DT.NETREV_Y_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+</Section>
+</Details>
+<Details Level="1">
+<Section SectionNumber="0">
+<Field Name="ZDCGLONGDESC1" FieldName="{HRS_TEL_REV_DT.ZDCG_LONGDESC}"><FormattedValue>Паркинг</FormattedValue><Value>Паркинг</Value></Field>
+<Field Name="NETREVD1" FieldName="{HRS_TEL_REV_DT.NETREV_D}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="NETREVM1" FieldName="{HRS_TEL_REV_DT.NETREV_M}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="NETREVY1" FieldName="{HRS_TEL_REV_DT.NETREV_Y}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="NETREVDLY1" FieldName="{HRS_TEL_REV_DT.NETREV_D_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="NETREVMLY1" FieldName="{HRS_TEL_REV_DT.NETREV_M_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="NETREVYLY1" FieldName="{HRS_TEL_REV_DT.NETREV_Y_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+</Section>
+</Details>
+<Details Level="1">
+<Section SectionNumber="0">
+<Field Name="ZDCGLONGDESC1" FieldName="{HRS_TEL_REV_DT.ZDCG_LONGDESC}"><FormattedValue>Ski bike pass</FormattedValue><Value>Ski bike pass</Value></Field>
+<Field Name="NETREVD1" FieldName="{HRS_TEL_REV_DT.NETREV_D}"><FormattedValue>6 000,00</FormattedValue><Value>6000.00</Value></Field>
+<Field Name="NETREVM1" FieldName="{HRS_TEL_REV_DT.NETREV_M}"><FormattedValue>6 000,00</FormattedValue><Value>6000.00</Value></Field>
+<Field Name="NETREVY1" FieldName="{HRS_TEL_REV_DT.NETREV_Y}"><FormattedValue>245 025,00</FormattedValue><Value>245025.00</Value></Field>
+<Field Name="NETREVDLY1" FieldName="{HRS_TEL_REV_DT.NETREV_D_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="NETREVMLY1" FieldName="{HRS_TEL_REV_DT.NETREV_M_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="NETREVYLY1" FieldName="{HRS_TEL_REV_DT.NETREV_Y_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+</Section>
+</Details>
+<Details Level="1">
+<Section SectionNumber="0">
+<Field Name="ZDCGLONGDESC1" FieldName="{HRS_TEL_REV_DT.ZDCG_LONGDESC}"><FormattedValue>Экологический сбор</FormattedValue><Value>Экологический сбор</Value></Field>
+<Field Name="NETREVD1" FieldName="{HRS_TEL_REV_DT.NETREV_D}"><FormattedValue>772,00</FormattedValue><Value>772.00</Value></Field>
+<Field Name="NETREVM1" FieldName="{HRS_TEL_REV_DT.NETREV_M}"><FormattedValue>772,00</FormattedValue><Value>772.00</Value></Field>
+<Field Name="NETREVY1" FieldName="{HRS_TEL_REV_DT.NETREV_Y}"><FormattedValue>18 914,00</FormattedValue><Value>18914.00</Value></Field>
+<Field Name="NETREVDLY1" FieldName="{HRS_TEL_REV_DT.NETREV_D_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="NETREVMLY1" FieldName="{HRS_TEL_REV_DT.NETREV_M_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="NETREVYLY1" FieldName="{HRS_TEL_REV_DT.NETREV_Y_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+</Section>
+</Details>
+<Details Level="1">
+<Section SectionNumber="0">
+<Field Name="ZDCGLONGDESC1" FieldName="{HRS_TEL_REV_DT.ZDCG_LONGDESC}"><FormattedValue>Конный центр</FormattedValue><Value>Конный центр</Value></Field>
+<Field Name="NETREVD1" FieldName="{HRS_TEL_REV_DT.NETREV_D}"><FormattedValue>13 000,00</FormattedValue><Value>13000.00</Value></Field>
+<Field Name="NETREVM1" FieldName="{HRS_TEL_REV_DT.NETREV_M}"><FormattedValue>13 000,00</FormattedValue><Value>13000.00</Value></Field>
+<Field Name="NETREVY1" FieldName="{HRS_TEL_REV_DT.NETREV_Y}"><FormattedValue>300 000,00</FormattedValue><Value>300000.00</Value></Field>
+<Field Name="NETREVDLY1" FieldName="{HRS_TEL_REV_DT.NETREV_D_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="NETREVMLY1" FieldName="{HRS_TEL_REV_DT.NETREV_M_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="NETREVYLY1" FieldName="{HRS_TEL_REV_DT.NETREV_Y_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+</Section>
+</Details>
+<Details Level="1">
+<Section SectionNumber="0">
+<Field Name="ZDCGLONGDESC1" FieldName="{HRS_TEL_REV_DT.ZDCG_LONGDESC}"><FormattedValue>Ride Park</FormattedValue><Value>Ride Park</Value></Field>
+<Field Name="NETREVD1" FieldName="{HRS_TEL_REV_DT.NETREV_D}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="NETREVM1" FieldName="{HRS_TEL_REV_DT.NETREV_M}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="NETREVY1" FieldName="{HRS_TEL_REV_DT.NETREV_Y}"><FormattedValue>60 500,00</FormattedValue><Value>60500.00</Value></Field>
+<Field Name="NETREVDLY1" FieldName="{HRS_TEL_REV_DT.NETREV_D_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="NETREVMLY1" FieldName="{HRS_TEL_REV_DT.NETREV_M_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="NETREVYLY1" FieldName="{HRS_TEL_REV_DT.NETREV_Y_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+</Section>
+</Details>
+<ReportFooter>
+</ReportFooter>
+</Subreport>
+</Section>
+<Section SectionNumber="87">
+<Field Name="Field82" FieldName="{SMAN.SMAN_TELEREVNET_D}"><FormattedValue>32 452,68</FormattedValue><Value>32452.68</Value></Field>
+<Field Name="Field85" FieldName="{SMAN.SMAN_TELEREVNET_M}"><FormattedValue>32 452,68</FormattedValue><Value>32452.68</Value></Field>
+<Field Name="Field88" FieldName="{SMAN.SMAN_TELEREVNET_Y}"><FormattedValue>922 601,74</FormattedValue><Value>922601.74</Value></Field>
+<Field Name="Field215" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_TELEREVNET_D}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="Field276" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_TELEREVNET_M}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="Field279" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_TELEREVNET_Y}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="Field337" FieldName="{@TTR_REV_TEL_NET}"><FormattedValue>Доход Активности  без нал.</FormattedValue><Value>Доход Активности  без нал.</Value></Field>
+</Section>
+<Section SectionNumber="90">
+</Section>
+<Section SectionNumber="91">
+<Field Name="Field422" FieldName="{SMAN.SMAN_COMPANY_REV_GROSS_D}"><FormattedValue>112 000,00</FormattedValue><Value>112000.00</Value></Field>
+<Field Name="Field423" FieldName="{SMAN.SMAN_COMPANY_REV_GROSS_M}"><FormattedValue>112 000,00</FormattedValue><Value>112000.00</Value></Field>
+<Field Name="Field424" FieldName="{SMAN.SMAN_COMPANY_REV_GROSS_Y}"><FormattedValue>49 541 073,00</FormattedValue><Value>49541073.00</Value></Field>
+<Field Name="Field425" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_COMPANY_REV_GROSS_D}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="Field426" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_COMPANY_REV_GROSS_M}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="Field427" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_COMPANY_REV_GROSS_Y}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="Field400" FieldName="{@TTR_REV_GROSS_COMPANY}"><FormattedValue>Доход от компаний</FormattedValue><Value>Доход от компаний</Value></Field>
+</Section>
+<Section SectionNumber="92">
+<Field Name="Field428" FieldName="{SMAN.SMAN_COMPANY_ROOMS_D}"><FormattedValue>2</FormattedValue><Value>2</Value></Field>
+<Field Name="Field429" FieldName="{SMAN.SMAN_COMPANY_ROOMS_M}"><FormattedValue>2</FormattedValue><Value>2</Value></Field>
+<Field Name="Field430" FieldName="{SMAN.SMAN_COMPANY_ROOMS_Y}"><FormattedValue>748</FormattedValue><Value>748</Value></Field>
+<Field Name="Field431" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_COMPANY_ROOMS_D}"><FormattedValue>0</FormattedValue><Value>0</Value></Field>
+<Field Name="Field432" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_COMPANY_ROOMS_M}"><FormattedValue>0</FormattedValue><Value>0</Value></Field>
+<Field Name="Field433" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_COMPANY_ROOMS_Y}"><FormattedValue>0</FormattedValue><Value>0</Value></Field>
+<Field Name="Field402" FieldName="{@TTR_ROOMS_COMPANY}"><FormattedValue>Комнат от компаний</FormattedValue><Value>Комнат от компаний</Value></Field>
+</Section>
+<Section SectionNumber="93">
+<Field Name="Field403" FieldName="{@TTR_REV_GROSS_AGENT}"><FormattedValue>Доход от ТА</FormattedValue><Value>Доход от ТА</Value></Field>
+<Field Name="HRSAGSOUREVM1" FieldName="{@HRS_AG_SOU_REV_M}"><FormattedValue>1 345 974,00</FormattedValue><Value>1345974.00</Value></Field>
+<Field Name="HRSAGSOUREVD1" FieldName="{@HRS_AG_SOU_REV_D}"><FormattedValue>1 345 974,00</FormattedValue><Value>1345974.00</Value></Field>
+<Field Name="HRSAGSOUREVY1" FieldName="{@HRS_AG_SOU_REV_Y}"><FormattedValue>172 941 601,79</FormattedValue><Value>172941601.79</Value></Field>
+<Field Name="HRSAGSOUREVDLY1" FieldName="{@HRS_AG_SOU_REV_D_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="HRSAGSOUREVMLY1" FieldName="{@HRS_AG_SOU_REV_M_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="HRSAGSOUREVYLY1" FieldName="{@HRS_AG_SOU_REV_Y_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+</Section>
+<Section SectionNumber="94">
+<Field Name="Field404" FieldName="{@TTR_ROOMS_AGENT}"><FormattedValue>Комнат от ТА</FormattedValue><Value>Комнат от ТА</Value></Field>
+<Field Name="HRSAGSOUROOMD1" FieldName="{@HRS_AG_SOU_ROOM_D}"><FormattedValue>22,00</FormattedValue><Value>22.00</Value></Field>
+<Field Name="HRSAGSOUROOMM1" FieldName="{@HRS_AG_SOU_ROOM_M}"><FormattedValue>22,00</FormattedValue><Value>22.00</Value></Field>
+<Field Name="HRSAGSOUROOMY1" FieldName="{@HRS_AG_SOU_ROOM_Y}"><FormattedValue>2 451,00</FormattedValue><Value>2451.00</Value></Field>
+<Field Name="HRSAGSOUROOMDLY1" FieldName="{@HRS_AG_SOU_ROOM_D_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="HRSAGSOUROOMMLY1" FieldName="{@HRS_AG_SOU_ROOM_M_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="HRSAGSOUROOMYLY1" FieldName="{@HRS_AG_SOU_ROOM_Y_LY}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+</Section>
+<Section SectionNumber="97">
+<Field Name="Field458" FieldName="{SMAN.SMAN_IND_REV_GROSS_D}"><FormattedValue>1 579 293,00</FormattedValue><Value>1579293.00</Value></Field>
+<Field Name="Field459" FieldName="{SMAN.SMAN_IND_REV_GROSS_M}"><FormattedValue>1 579 293,00</FormattedValue><Value>1579293.00</Value></Field>
+<Field Name="Field460" FieldName="{SMAN.SMAN_IND_REV_GROSS_Y}"><FormattedValue>107 760 316,05</FormattedValue><Value>107760316.05</Value></Field>
+<Field Name="Field461" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_IND_REV_GROSS_D}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="Field462" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_IND_REV_GROSS_M}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="Field463" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_IND_REV_GROSS_Y}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="Field407" FieldName="{@TTR_REV_GROSS_IND}"><FormattedValue>Доход от индивидуалов</FormattedValue><Value>Доход от индивидуалов</Value></Field>
+</Section>
+<Section SectionNumber="98">
+<Field Name="Field464" FieldName="{SMAN.SMAN_IND_ROOMS_D}"><FormattedValue>15</FormattedValue><Value>15</Value></Field>
+<Field Name="Field465" FieldName="{SMAN.SMAN_IND_ROOMS_M}"><FormattedValue>15</FormattedValue><Value>15</Value></Field>
+<Field Name="Field466" FieldName="{SMAN.SMAN_IND_ROOMS_Y}"><FormattedValue>1371</FormattedValue><Value>1371</Value></Field>
+<Field Name="Field467" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_IND_ROOMS_D}"><FormattedValue>0</FormattedValue><Value>0</Value></Field>
+<Field Name="Field468" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_IND_ROOMS_M}"><FormattedValue>0</FormattedValue><Value>0</Value></Field>
+<Field Name="Field469" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_IND_ROOMS_Y}"><FormattedValue>0</FormattedValue><Value>0</Value></Field>
+<Field Name="Field408" FieldName="{@TTR_ROOMS_IND}"><FormattedValue>Комн. от индивидуалов</FormattedValue><Value>Комн. от индивидуалов</Value></Field>
+</Section>
+<Section SectionNumber="99">
+<Field Name="Field470" FieldName="{SMAN.SMAN_BOOKER_REV_GROSS_D}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="Field471" FieldName="{SMAN.SMAN_BOOKER_REV_GROSS_M}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="Field472" FieldName="{SMAN.SMAN_BOOKER_REV_GROSS_Y}"><FormattedValue>5 223 780,00</FormattedValue><Value>5223780.00</Value></Field>
+<Field Name="Field473" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_BOOKER_REV_GROSS_D}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="Field474" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_BOOKER_REV_GROSS_M}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="Field475" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_BOOKER_REV_GROSS_Y}"><FormattedValue>0,00</FormattedValue><Value>0.00</Value></Field>
+<Field Name="Field409" FieldName="{@TTR_REV_GROSS_BOOKER}"><FormattedValue>Доход от заказачиков</FormattedValue><Value>Доход от заказачиков</Value></Field>
+</Section>
+<Section SectionNumber="100">
+<Field Name="Field476" FieldName="{SMAN.SMAN_BOOKER_ROOMS_D}"><FormattedValue>0</FormattedValue><Value>0</Value></Field>
+<Field Name="Field477" FieldName="{SMAN.SMAN_BOOKER_ROOMS_M}"><FormattedValue>0</FormattedValue><Value>0</Value></Field>
+<Field Name="Field478" FieldName="{SMAN.SMAN_BOOKER_ROOMS_Y}"><FormattedValue>57</FormattedValue><Value>57</Value></Field>
+<Field Name="Field479" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_BOOKER_ROOMS_D}"><FormattedValue>0</FormattedValue><Value>0</Value></Field>
+<Field Name="Field480" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_BOOKER_ROOMS_M}"><FormattedValue>0</FormattedValue><Value>0</Value></Field>
+<Field Name="Field481" FieldName="{V8_STAT_MANAGER_REPORT_LY.SMAN_BOOKER_ROOMS_Y}"><FormattedValue>0</FormattedValue><Value>0</Value></Field>
+<Field Name="Field410" FieldName="{@TTR_ROOMS_BOOKER}"><FormattedValue>Комнат от заказчиков</FormattedValue><Value>Комнат от заказчиков</Value></Field>
+</Section>
+<Section SectionNumber="101">
+</Section>
+<Section SectionNumber="102">
+<Field Name="Field114" FieldName="{SMAN.SMAN_ARRADULTSTOMORROW_D}"><FormattedValue>21</FormattedValue><Value>21</Value></Field>
+<Field Name="Field342" FieldName="{@TTR_ARR_PRS_TOM}"><FormattedValue>Заезд чел. завтра</FormattedValue><Value>Заезд чел. завтра</Value></Field>
+</Section>
+<Section SectionNumber="103">
+<Field Name="Field115" FieldName="{SMAN.SMAN_ARRROOMSTOMORROW_D}"><FormattedValue>12</FormattedValue><Value>12</Value></Field>
+<Field Name="Field343" FieldName="{@TTR_ARR_RMS_TOM}"><FormattedValue>Заезд комн. завтра</FormattedValue><Value>Заезд комн. завтра</Value></Field>
+</Section>
+<Section SectionNumber="104">
+<Field Name="Field116" FieldName="{SMAN.SMAN_DEPADULTSTOMORROW_D}"><FormattedValue>47</FormattedValue><Value>47</Value></Field>
+<Field Name="Field344" FieldName="{@TTR_DEP_PRS_TOM}"><FormattedValue>Выезд чел. завтра</FormattedValue><Value>Выезд чел. завтра</Value></Field>
+</Section>
+<Section SectionNumber="105">
+<Field Name="Field117" FieldName="{SMAN.SMAN_DEPROOMSTOMORROW_D}"><FormattedValue>20</FormattedValue><Value>20</Value></Field>
+<Field Name="Field345" FieldName="{@TTR_DEP_RMS_TOM}"><FormattedValue>Выезд комн. завтра</FormattedValue><Value>Выезд комн. завтра</Value></Field>
+</Section>
+<Section SectionNumber="106">
+</Section>
+<Section SectionNumber="107">
+<Field Name="Field411" FieldName="{@TTR_ONLY_DEF}"><FormattedValue>Только подтв.</FormattedValue><Value>Только подтв.</Value></Field>
+</Section>
+<Section SectionNumber="108">
+<Field Name="Field482" FieldName="{SMAN.SMAN_OCCTOMORROW_D}"><FormattedValue>25,77</FormattedValue><Value>25.77</Value></Field>
+<Field Name="Field483" FieldName="{@TTR_OCC_TOM_PCT}"><FormattedValue>Загрузка завтра, %</FormattedValue><Value>Загрузка завтра, %</Value></Field>
+</Section>
+<Section SectionNumber="109">
+<Field Name="Field484" FieldName="{SMAN.SMAN_OCCNEXTSEVENDAYS_D}"><FormattedValue>44,66</FormattedValue><Value>44.66</Value></Field>
+<Field Name="Field485" FieldName="{@TTR_OCC_7DAYS}"><FormattedValue>Загрузка след. 7 дней, %</FormattedValue><Value>Загрузка след. 7 дней, %</Value></Field>
+</Section>
+<Section SectionNumber="110">
+<Field Name="Field486" FieldName="{SMAN.SMAN_OCCNEXTFOURWEEKS_D}"><FormattedValue>21,36</FormattedValue><Value>21.36</Value></Field>
+<Field Name="Field487" FieldName="{@TTR_OCC_4WEEKS}"><FormattedValue>Загрузка след. 4 нед., %</FormattedValue><Value>Загрузка след. 4 нед., %</Value></Field>
+</Section>
+<Section SectionNumber="111">
+<Field Name="Field488" FieldName="{SMAN.SMAN_OCCUNTILENDMONTH_D}"><FormattedValue>21,02</FormattedValue><Value>21.02</Value></Field>
+<Field Name="Field489" FieldName="{@TTR_OCC_TILL_EOM}"><FormattedValue>Загрузка до конца мес., %</FormattedValue><Value>Загрузка до конца мес., %</Value></Field>
+</Section>
+<Section SectionNumber="112">
+<Field Name="Field490" FieldName="{SMAN.SMAN_OCCENDYEAR_D}"><FormattedValue>8,82</FormattedValue><Value>8.82</Value></Field>
+<Field Name="Field491" FieldName="{@TTR_OCC_TILL_EOY}"><FormattedValue>Загрузка до конца года, %</FormattedValue><Value>Загрузка до конца года, %</Value></Field>
+</Section>
+</Details>
+</CrystalReport>

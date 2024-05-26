@@ -12,8 +12,16 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('reports', function (Blueprint $table) {
-            $table->id();
+            $table->id()->unsigned();
+            $table->unsignedBigInteger('report_file_id')->nullable();
+            $table->unsignedBigInteger('report_key')->nullable();
+            $table->unsignedBigInteger('key_parent_id')->nullable();
+            $table->string('formatted_value')->nullable();
+            $table->string('value')->nullable();
+            $table->string('name')->nullable();
+            $table->string('field_name')->nullable();
             $table->timestamps();
+            $table->softDeletes();
         });
     }
 

@@ -20,7 +20,7 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 });
 
 
-Route::prefix('V1')->group(function() {
+Route::prefix('v1')->group(function() {
     Route::prefix('report')->group(function() {
         Route::post('import', [ReportController::class, 'import'])->name('report.import');
         Route::get('get', [ReportController::class, 'get'])->name('report.get');
